@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <script src="./static/assets/jquery-3.5.1.js"></script>
+        <script src="./static/assets/echarts/echarts.js"></script>
+        <script src="./static/assets/echarts/china.js"></script>
+        <style>
+            #container {
+                width: 100%;
+                height: 400px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div id="container"></div>
+        
+        <script>
+            var myChart = echarts.init(document.getElementById("container"));
+            // 获取对应省的文件,13.js对应河北
+            $.getJSON('./data/13.json', function (geoJson) {
+                // 传入id:13
+                echarts.registerMap(13, geoJson);
+                option = {
+                    geo: {  //地理坐标系组件用于地图的绘制，支持在地理坐标系上绘制散点图，线集。
+                        //id:13
+                        map: 13,
+                        // roam: true,
+                        zoom: 1.2,  
+                        label: {
+                            normal: {
+                                show: true,
+                                textStyle: {
+                                    color: '#11B441'                        //省份字体颜色
+                                }
+                            }
+                        },
+                        itemStyle: {
+                            normal: {
+                                borderColor: '#11AE4B',
+                                areaColor: '#173D53',
+                            },
+                            emphasis: {
+                                areaColor: '#fff',
+                                
+                                borderWidth: 0.8,
+                            
+                            }
+                        }
+                    },
+                    series: [
+                        {
+                            name:'河北地图',
+                            roam: false,
+                            type: 'map',
+                            coordinateSystem: 'geo'
+                        }
+                    ]
+                };
+                myChart.setOption(option)
+            });
+            
+        </script>
+    </body>
+
+</html>

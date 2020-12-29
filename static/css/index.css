@@ -1,0 +1,100 @@
+.situation_page {
+  box-sizing: border-box;
+  width: 3840px;
+  height: 1024px;
+  background-color: #173d53;
+}
+.situation_page .network_security {
+  padding: 4rem 0.5rem 0;
+  height: 90%;
+}
+.situation_page .network_security .network_security_top {
+  height: 50%;
+  margin-bottom: 2%;
+}
+.situation_page .network_security .network_security_center {
+  height: 20%;
+  margin-bottom: 2%;
+}
+.situation_page .network_security .network_security_bottom {
+  height: 20%;
+}
+.situation_page .website_monitoring {
+  padding: 4rem 1rem 0;
+  height: 90%;
+}
+.situation_page .website_monitoring .website_monitoring_top {
+  height: 50%;
+  margin-bottom: 2%;
+}
+.situation_page .website_monitoring .website_monitoring_bottom {
+  height: 41%;
+}
+.situation_page .public_safety {
+  height: 90%;
+  padding: 4rem 1rem 0;
+}
+.situation_page .public_safety .public_safety_top {
+  height: 32%;
+  margin-bottom: 2%;
+}
+.situation_page .public_safety .public_safety_center {
+  height: 26%;
+  margin-bottom: 2%;
+}
+.situation_page .public_safety .public_safety_bottom {
+  height: 32%;
+}
+.situation_page .special_topic {
+  box-sizing: border-box;
+  height: 90%;
+  padding: 4rem 1rem 0;
+}
+.situation_page .special_topic .special_topic_top {
+  height: 21%;
+  margin-bottom: 2%;
+}
+.situation_page .special_topic .special_topic_center {
+  height: 34%;
+  margin-bottom: 2%;
+}
+.situation_page .special_topic .special_topic_bottom {
+  height: 34%;
+}
+.situation_page .information_safety {
+  height: 68%;
+  padding: 2rem 1rem 0;
+}
+.situation_page .information_safety .information_safety_top {
+  height: 31%;
+}
+.situation_page .information_safety .information_safety_center {
+  height: 31%;
+}
+.situation_page .information_safety .information_safety_bottom {
+  height: 31%;
+}
+.situation_page .network_security_requirements {
+  height: 30%;
+  padding: 1rem;
+}
+.situation_page .network_security_requirements .network_security_requirements_body {
+  height: 100%;
+}
+.situation_page .safety_control {
+  height: 68%;
+  padding: 2rem 1rem 0;
+}
+.situation_page .safety_control .safety_control_top {
+  height: 64%;
+}
+.situation_page .safety_control .safety_control_bottom {
+  height: 31%;
+}
+.situation_page .network_public_opinion_display {
+  height: 30%;
+  padding: 1rem;
+}
+.situation_page .network_public_opinion_display .network_public_opinion_display_body {
+  height: 100%;
+}
