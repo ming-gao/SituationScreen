@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../static/assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/global.css">
     <link rel="stylesheet" href="../static/css/index.css">
-    <script src="./static/assets/jquery-3.5.1.js"></script>
-    <script src="./static/assets/echarts/echarts.js"></script>
-    <script src="./static/assets/echarts/china.js"></script>
-    <script src="../static/js/index.js"></script>
+    <script src="../static/assets/jquery-3.5.1.js"></script>
+    <script src="../static/assets/echarts/echarts.js"></script>
+    <!-- <script src="../static/assets/echarts/china.js"></script> -->
+    
     <title>Document</title>
 </head>
+
 <body>
+    
     <div class="situation_page ">
         <div class="container-fluid h-100">
             <div class="row justify-content-around align-items-center h-100">
@@ -24,30 +27,30 @@
                         </div>
                         <!-- 地图 -->
                         <div class="col">
-                           <iframe src="../mapChina.html" frameborder="0" width="100%" height="100%"></iframe>
+                            <iframe src="../mapChina.html" frameborder="0" width="100%" height="100%"></iframe>
                         </div>
                     </div>
                     <div class="d-flex justify-content-around network_security_center">
-                     
+
                         <!-- 图表 -->
                         <div class="col border-four mr-2">
                             <div id="safe_line"></div>
                         </div>
-                     
+
                         <!-- 表格 -->
                         <div class="col border-four">
-                            
+
                         </div>
                     </div>
                     <div class="d-flex justify-content-around network_security_bottom">
-                     
+
                         <!-- 底部状态标题 -->
                         <div class="col border-four">
-                            攻击状态
+                            攻击链状态
                         </div>
                     </div>
                 </div>
-                  <!-- 网络安全 结束 -->
+                <!-- 网络安全 结束 -->
 
 
                 <!-- 重保网站监控 -->
@@ -62,24 +65,24 @@
                             <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
                         </div>
                         <div class="col">
-                         
+
                             <!-- 数表盘 -->
-                            <div class="row border-four h-49" style="margin-bottom: 4%;" >数表盘</div>
-                         
+                            <div class="row border-four h-49" style="margin-bottom: 4%;">数表盘</div>
+
                             <!-- 套饼图 -->
                             <div class="row border-four h-49">套饼图</div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-around website_monitoring_bottom ">
-                      
+
                         <!-- 重点网站监测 -->
                         <div class="col border-four mr-2">
-                           
+
                         </div>
-                      
+
                         <!-- 右下区域 -->
                         <div class="col border-four">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -94,15 +97,15 @@
                     <!-- 顶部地图 -->
                     <div class="public_safety_top justify-content-center border-four">
                     </div>
-                   
+
                     <!-- 中间表格 -->
                     <div class="public_safety_center bg-info">
 
                     </div>
-                   
+
                     <!-- 底部地图 -->
                     <div class="public_safety_bottom border-four">
-                        
+
                     </div>
                 </div>
                 <!-- 公共安全  结束 -->
@@ -147,16 +150,18 @@
                 </div>
                 <!-- 五反专题 结束 -->
 
-               
+
                 <div class="w-20 h-90">
-                     <!-- 信息安全 -->
+                    <!-- 信息安全 -->
                     <div class="mb-3 border_large d-flex flex-column justify-content-center information_safety">
                         <div class="d-flex information_safety_top mb-2">
                             <div class="title_wrapper">
                                 <div class="title_inner">信息安全</div>
                             </div>
                             <!-- 月均垃圾短彩信投诉量 -->
-                            <div class="col border-four mr-3">1</div>
+                            <div class="col border-four mr-3">1
+                                <!-- <div id="safe_line"></div> -->
+                            </div>
 
                             <!-- 骚扰电话治理情况 -->
                             <div class="col border-four mr-2">2</div>
@@ -194,7 +199,7 @@
                     </div>
                     <!-- 网络安全工作要求  结束 -->
                 </div>
-                
+
                 <div class="w-20 h-90">
 
                     <!-- 安全管控 -->
@@ -204,17 +209,19 @@
                                 <div class="title_inner">安全管控</div>
                             </div>
                             <!-- 地图 -->
-                            <div class="col mr-2 bg-info" style="padding: 0;" ></div>
-
+                            <div class="col mr-2 " style="padding: 0;">
+                                <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
+                            </div>
+                                
                             <div class="col mr-2" style="padding: 0;">
                                 <!-- 安全工单处理情况 -->
                                 <div class="d-flex h-48 border-four mb-3">
-                                    
+
                                 </div>
 
                                 <!-- 主账号操作审计 -->
                                 <div class="d-flex h-48 border-four">
-                                    
+
                                 </div>
                             </div>
                             <div class="col " style="padding: 0;">
@@ -259,5 +266,7 @@
             </div>
         </div>
     </div>
+    <script src="../static/js/index.js"></script>
 </body>
+
 </html>
