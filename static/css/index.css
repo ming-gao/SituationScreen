@@ -19,6 +19,10 @@
 .situation_page .network_security .network_security_bottom {
   height: 20%;
 }
+.situation_page #safe_line {
+  width: 100%;
+  height: 200px;
+}
 .situation_page .website_monitoring {
   padding: 4rem 1rem 0;
   height: 90%;
