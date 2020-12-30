@@ -1,3 +1,7 @@
+@font-face{
+    src: url('../font/LCDD.TTF');
+    font-family: 'LcdD';
+}
 .border_large {
     border: 2px solid #468e72;
     position: relative;
@@ -12,6 +16,7 @@
     width: 100%;
     text-align: center;
     height: 40px;
+    
 }
 .title_inner{
     color: #fff;

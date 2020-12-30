@@ -21,7 +21,7 @@
 }
 .situation_page #safe_line {
   width: 100%;
-  height: 300px;
+  height: 200px;
 }
 .situation_page .website_monitoring {
   padding: 4rem 1rem 0;
@@ -48,6 +48,9 @@
 }
 .situation_page .public_safety .public_safety_bottom {
   height: 32%;
+}
+.situation_page .public_safety .title_inner {
+  font-family: 'LcdD';
 }
 .situation_page .special_topic {
   box-sizing: border-box;
@@ -78,7 +81,7 @@
 .situation_page .information_safety .information_safety_bottom {
   height: 31%;
 }
-.situation_page #bar_safe {
+.situation_page #bar_normal {
   width: 100%;
   height: 200px;
 }
@@ -98,6 +101,10 @@
 }
 .situation_page .safety_control .safety_control_bottom {
   height: 31%;
+}
+.situation_page #bar_exchange {
+  width: 100%;
+  height: 200px;
 }
 .situation_page .network_public_opinion_display {
   height: 30%;
