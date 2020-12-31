@@ -1,4 +1,5 @@
 //表格数据滚动
+alert(1)
 (function(){
     $(function(){
         //创建定时器
