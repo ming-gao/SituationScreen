@@ -22,13 +22,20 @@
 .situation_page .network_security .mytable {
   width: 100%;
   font-size: 13px;
+  position: relative;
 }
 .situation_page .network_security .mytable td {
   border: none;
   padding: 0.4rem 1rem 0.4rem 0.4rem;
 }
+.situation_page .network_security .mytable tbody {
+  position: relative;
+}
 .situation_page .network_security .mytable tbody tr:nth-child(even) {
   background: #1c4a66;
+}
+.situation_page .network_security .mytable thead {
+  position: relative;
 }
 .situation_page .network_security .mytable thead tr {
   background: #1c4a66;

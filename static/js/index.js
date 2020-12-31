@@ -104,3 +104,6 @@ baroption={
     }]
 }
 barExCharts.setOption(baroption)
+
+
+
