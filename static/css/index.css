@@ -24,18 +24,26 @@
   font-size: 13px;
   position: relative;
 }
+.situation_page .network_security .mytable tr {
+  padding-left: 8%;
+  display: inline-block;
+  width: 100%;
+}
 .situation_page .network_security .mytable td {
+  display: inline-block;
+  width: 44%;
   border: none;
   padding: 0.4rem 1rem 0.4rem 0.4rem;
 }
 .situation_page .network_security .mytable tbody {
-  position: relative;
+  position: absolute;
 }
 .situation_page .network_security .mytable tbody tr:nth-child(even) {
   background: #1c4a66;
 }
 .situation_page .network_security .mytable thead {
-  position: relative;
+  position: absolute;
+  width: 100%;
 }
 .situation_page .network_security .mytable thead tr {
   background: #1c4a66;
