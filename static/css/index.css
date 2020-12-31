@@ -35,7 +35,7 @@
 }
 .situation_page #safe_line {
   width: 100%;
-  height: 200px;
+  height: 100%;
 }
 .situation_page .website_monitoring {
   padding: 3rem 1rem 0;
