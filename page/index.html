@@ -10,15 +10,15 @@
     <script src="../static/assets/jquery-3.5.1.js"></script>
     <script src="../static/assets/echarts/echarts.js"></script>
     <!-- <script src="../static/assets/echarts/china.js"></script> -->
-    
+
     <title>Document</title>
 </head>
 
 <body>
-    
+
     <div class="situation_page ">
         <div class="container-fluid h-100">
-            <div class="row justify-content-around align-items-center h-100">
+            <div class="row justify-content-around align-items-end h-100 pb-4">
                 <!-- 网络安全 -->
                 <div class="border_large d-flex flex-column w-14 justify-content-center network_security ">
                     <div class="d-flex justify-content-around network_security_top">
@@ -38,7 +38,43 @@
                         </div>
 
                         <!-- 表格 -->
-                        <div class="col border-four">
+                        <div class="col p-4 border-four ">
+                            <div class="overflow-hidden" style="width: 100%;height: 100%;">
+                                <table class="table text-white text-center mytable">
+                                    <thead>
+                                        <tr>
+                                            <td>攻击目标</td>
+                                            <td>次数</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>192.168.10.2</td>
+                                            <td>38</td>
+                                        </tr>
+                                        <tr>
+                                            <td>192.168.10.2</td>
+                                            <td>38</td>
+                                        </tr>
+                                        <tr>
+                                            <td>192.168.10.2</td>
+                                            <td>38</td>
+                                        </tr>
+                                        <tr>
+                                            <td>192.168.10.2</td>
+                                            <td>38</td>
+                                        </tr>
+                                        <tr>
+                                            <td>192.168.10.2</td>
+                                            <td>38</td>
+                                        </tr>
+                                        <tr>
+                                            <td>192.168.10.2</td>
+                                            <td>38</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
 
                         </div>
                     </div>
@@ -89,7 +125,7 @@
                 <!-- 重保网站监控  结束 -->
 
                 <!-- 公共安全 -->
-                <div class="border_large w-11 d-flex flex-column justify-content-center public_safety">
+                <div class="border_large w-12 d-flex flex-column justify-content-center public_safety">
                     <div class="title_wrapper">
                         <div class="title_inner">公共安全</div>
                     </div>
@@ -112,7 +148,7 @@
 
 
                 <!-- 五反专题 -->
-                <div class="border_large w-18 d-flex flex-column justify-content-center special_topic">
+                <div class="border_large w-15 d-flex flex-column justify-content-center special_topic">
                     <div class="title_wrapper">
                         <div class="title_inner">五反专题</div>
                     </div>
@@ -140,10 +176,10 @@
                         <div class="col mr-2">
 
                             <!-- CDN劫持 -->
-                            <div class="row border-four h-49 mb-2"></div>
+                            <div class="row border-four h-59" style="margin-bottom: 4%;"></div>
 
                             <!-- 短彩信控制 -->
-                            <div class="row border-four h-49"></div>
+                            <div class="row border-four h-38"></div>
                         </div>
 
                         <!-- 网页篡改 -->
@@ -155,9 +191,9 @@
                 <!-- 五反专题 结束 -->
 
 
-                <div class="w-20 h-90">
+                <div class="w-20 h-95">
                     <!-- 信息安全 -->
-                    <div class="mb-3 border_large d-flex flex-column justify-content-center information_safety">
+                    <div class="mb-4 border_large d-flex flex-column justify-content-center information_safety">
                         <div class="d-flex information_safety_top mb-2">
                             <div class="title_wrapper">
                                 <div class="title_inner">信息安全</div>
@@ -206,10 +242,10 @@
                     <!-- 网络安全工作要求  结束 -->
                 </div>
 
-                <div class="w-20 h-90">
+                <div class="w-21 h-95">
 
                     <!-- 安全管控 -->
-                    <div class="mb-3 border_large d-flex flex-column justify-content-center  safety_control ">
+                    <div class="mb-4 border_large d-flex flex-column justify-content-center  safety_control ">
                         <div class="d-flex safety_control_top mb-2">
                             <div class="title_wrapper">
                                 <div class="title_inner">安全管控</div>
@@ -218,7 +254,7 @@
                             <div class="col mr-2 " style="padding: 0;">
                                 <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
                             </div>
-                                
+
                             <div class="col mr-2" style="padding: 0;">
                                 <!-- 安全工单处理情况 -->
                                 <div class="d-flex h-48 border-four mb-3">
@@ -273,6 +309,16 @@
         </div>
     </div>
     <script src="../static/js/index.js"></script>
+    <script>
+        $function(){
+            
+        }
+
+        function moveTable(){
+            let $tables = $(".mytable");
+            $.
+        }
+    </script>
 </body>
 
 </html>
