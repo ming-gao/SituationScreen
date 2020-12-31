@@ -65,14 +65,14 @@
 }
 .situation_page .public_safety {
   height: 95%;
-  padding: 3rem 1rem 0;
+  padding: 3rem 2rem 0;
 }
 .situation_page .public_safety .public_safety_top {
   height: 32%;
   margin-bottom: 2%;
 }
 .situation_page .public_safety .public_safety_center {
-  height: 26%;
+  height: 25%;
   margin-bottom: 2%;
 }
 .situation_page .public_safety .public_safety_bottom {
