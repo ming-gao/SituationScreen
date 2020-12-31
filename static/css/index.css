@@ -86,6 +86,14 @@
   width: 100%;
   height: 200px;
 }
+.situation_page #bar_normal_Infosf {
+  width: 100%;
+  height: 100%;
+}
+.situation_page #bar_exchange_Infosf {
+  width: 100%;
+  height: 100%;
+}
 .situation_page .network_security_requirements {
   height: 30%;
   padding: 1rem;
@@ -102,6 +110,10 @@
 }
 .situation_page .safety_control .safety_control_bottom {
   height: 31%;
+}
+.situation_page #hebeimap_sfcontrol {
+  width: 100%;
+  height: 100%;
 }
 .situation_page #bar_exchange {
   width: 100%;

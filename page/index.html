@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="../static/css/index.css">
     <script src="../static/assets/jquery-3.5.1.js"></script>
     <script src="../static/assets/echarts/echarts.js"></script>
-    <!-- <script src="../static/assets/echarts/china.js"></script> -->
+    <script src="../static/assets/echarts/china.js"></script>
+    <script src="../static//assets/echarts/echarts_map.js"></script>
     
     <title>Document</title>
 </head>
@@ -163,33 +164,35 @@
                                 <div class="title_inner">信息安全</div>
                             </div>
                             <!-- 月均垃圾短彩信投诉量 -->
-                            <div class="col border-four mr-3">1
-                                <div id="bar_normal"></div>
+                            <div class="col border-four mr-3">
+                                <div id="bar_normal_Infosf"></div>
                             </div>
 
                             <!-- 骚扰电话治理情况 -->
                             <div class="col border-four mr-2">2</div>
 
                             <!-- 公网端口暴露情况 -->
-                            <div class="col border-four"></div>
+                            <div class="col border-four">3</div>
                         </div>
                         <div class="d-flex information_safety_center mb-2">
 
                             <!-- 僵木蠕处置情况 -->
                             <div class="col-8 mr-2 border-four">
-                                <div id="bar_exchange"></div>
+                                <div id="bar_exchange">4
+                                    <div id="bar_exchange_Infosf"></div>
+                                </div>
                             </div>
 
                             <!-- 内网主机系统漏洞情况 -->
-                            <div class="col border-four"></div>
+                            <div class="col border-four">5</div>
                         </div>
                         <div class="d-flex information_safety_bottom">
 
                             <!-- 实时报警通报 -->
-                            <div class="col-8 mr-2 border-four"></div>
+                            <div class="col-8 mr-2 border-four">6</div>
 
                             <!-- 公网主机系统漏洞情况 -->
-                            <div class="col border-four"></div>
+                            <div class="col border-four">7</div>
                         </div>
                     </div>
                     <!-- 信息安全  结束 -->
@@ -216,7 +219,8 @@
                             </div>
                             <!-- 地图 -->
                             <div class="col mr-2 " style="padding: 0;">
-                                <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
+                                <div id="hebeimap_sfcontrol"></div>
+                                
                             </div>
                                 
                             <div class="col mr-2" style="padding: 0;">
@@ -272,7 +276,7 @@
             </div>
         </div>
     </div>
-    <script src="../static/js/index.js"></script>
+    <script src="../static/js/myecharts.js"></script>
 </body>
 
 </html>
