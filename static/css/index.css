@@ -63,6 +63,13 @@
 .situation_page .website_monitoring .website_monitoring_bottom {
   height: 41%;
 }
+.situation_page .website_monitoring svg text .tag_number {
+  font-family: 'LcdD';
+  font-size: 1rem;
+}
+.situation_page .website_monitoring svg text .tag_word {
+  fill: '#fff';
+}
 .situation_page .public_safety {
   height: 95%;
   padding: 3rem 1rem 0;
