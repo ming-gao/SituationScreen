@@ -8,11 +8,11 @@ $(function () {
         $.each($tables, function (i, table) {
             var $tbody = $(table).children("tbody") //获取tbody
             var $tbody_trs = $tbody.children("tr"); //获取所有tr
+            var showNum = $(table).parent().height()/35;    //获取表格区高度，计算可展示多少行
             $tbody.css("top", parseInt($tbody.css("top")) - 2); //每次调用函数移动距离
             //判断是否为数据结尾
-            if (parseInt($tbody.css("top")) < -(($tbody_trs.length - 4) * parseInt($tbody_trs.eq(0).css("height")))) {
+            if (parseInt($tbody.css("top")) < -(($tbody_trs.length - parseInt(showNum)-1) * parseInt($tbody_trs.eq(0).css("height")))) {
                 $tbody.css("top","32.3px");
-                console.log(1)
             }
         });
         //移入停止
