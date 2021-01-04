@@ -1,5 +1,33 @@
 
 .situation_page{
+    .mytable{
+        width: 100%;
+        font-size: 13px;
+        position: relative;
+        tr{
+            display: inline-block;
+            width: 100%;
+        }
+        td{
+            display: inline-block;
+            border: none;
+            padding: 0.4rem 1rem 0.4rem 0.4rem;
+        }
+        tbody{
+            position: absolute;
+            tr:nth-child(even){
+                background: rgb(28,74,102);
+            }
+           
+        }
+        thead{
+            position: absolute;
+            width: 100%;
+            tr{
+                background:  rgb(28,74,102);
+            }
+        }
+    }
     background: url(../images/background.png) no-repeat;
     box-sizing: border-box;
     width: 3840px;
@@ -19,36 +47,7 @@
         .network_security_bottom{
             height: 20%;
         }
-        .mytable{
-            width: 100%;
-            font-size: 13px;
-            position: relative;
-            tr{
-                padding-left: 8%;
-                display: inline-block;
-                width: 100%;
-            }
-            td{
-                display: inline-block;
-                width: 44%;
-                border: none;
-                padding: 0.4rem 1rem 0.4rem 0.4rem;
-            }
-            tbody{
-                position: absolute;
-                tr:nth-child(even){
-                    background: rgb(28,74,102);
-                }
-               
-            }
-            thead{
-                position: absolute;
-                width: 100%;
-                tr{
-                    background:  rgb(28,74,102);
-                }
-            }
-        }
+        
     }
     #safe_line{
         width: 100%;
