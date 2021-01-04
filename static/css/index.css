@@ -5,7 +5,7 @@
   height: 1024px;
 }
 .situation_page .network_security {
-  padding: 3rem 0.5rem 0;
+  padding: 2rem 0.5rem 0;
   height: 95%;
 }
 .situation_page .network_security .network_security_top {
@@ -53,11 +53,11 @@
   height: 100%;
 }
 .situation_page .website_monitoring {
-  padding: 3rem 1rem 0;
+  padding: 2rem 1rem 0;
   height: 95%;
 }
 .situation_page .website_monitoring .website_monitoring_top {
-  height: 50%;
+  height: 55%;
   margin-bottom: 2%;
 }
 .situation_page .website_monitoring .website_monitoring_bottom {
@@ -65,7 +65,7 @@
 }
 .situation_page .public_safety {
   height: 95%;
-  padding: 3rem 2rem 0;
+  padding: 2rem 2rem 0;
 }
 .situation_page .public_safety .public_safety_top {
   height: 32%;
@@ -82,7 +82,7 @@
   font-family: 'LcdD';
 }
 .situation_page .special_topic {
-  margin-top: 3rem;
+  margin-top: 1rem;
   box-sizing: border-box;
   height: 89%;
   padding: 1rem 1rem 0;

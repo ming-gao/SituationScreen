@@ -106,19 +106,32 @@ baroption = {
 barExCharts.setOption(baroption)
 
 
-let pieSetWebMon = echarts.init(document.getElementById("pie_set_webMon"));
+// Web站点运行监测情况
+let pieStationOperationMonitoring = echarts.init(document.getElementById("pie_station_operation_monitoring"));
+// 公网主机系统漏洞情况
+let piePublicNetworkHostVulnerability = echarts.init(document.getElementById("pie_public_network_host_vulnerability"));
+// 公网端口暴漏情况
+let piePublicNetworkPortLeakage = echarts.init(document.getElementById("pie_public_network_port_leakage"));
 
-pieSetOption = {
-    color:["#99CDD3"],
+
+
+// Web站点运行监测情况
+pieStationOperationMonitoringOption = {
+    color:["#99CDD3","#1c9fdc","#0096ae","#00e2d1"],
     tooltip: {
         trigger: 'item',
         formatter: '{a} <br/>{b}: {c} ({d}%)'
     },
-    // legend: {
-    //     orient: 'vertical',
-    //     left: 10,
-    //     data: ['直达', '营销广告', '搜索引擎', '邮件营销', '联盟广告', '视频广告', '百度', '谷歌', '必应', '其他']
-    // },
+    legend: {
+        orient: 'vertical',
+        right: 0,
+        bottom : 40,
+        width : 5,
+        height : 80,
+        itemWidth : 4,
+        itemHeight : 2,
+        data: ['test1', 'test2', 'test3', 'test4', 'test5', 'test6', 'test7', 'test8', 'test11', 'test22', 'test33', 'test44', 'test55']
+    },
     textStyle : {
         fontSize : 2,
     },
@@ -128,7 +141,7 @@ pieSetOption = {
             type: 'pie',
             selectedMode: 'single',
             radius: [0, '30%'],
-
+            left : -50,
             label: {
                 position: 'inner'
             },
@@ -136,31 +149,167 @@ pieSetOption = {
                 show: false
             },
             data: [
-                { value: 335, name: '直达', selected: true },
-                { value: 679, name: '营销广告' },
-                { value: 1548, name: '搜索引擎' }
+                { value: 335, name: 'test11'},
+                { value: 679, name: 'test22' },
+                { value: 1548, name: 'test33' },
+                { value: 1548, name: 'test44' },
+                { value: 1548, name: 'test55' },
+
             ]
         },
         {
             name: '访问来源',
             type: 'pie',
             radius: ['40%', '55%'],
+            left : -50,
             label: {
                position : 'inner',
             },
             data: [
-                { value: 335, name: '直达' },
-                { value: 310, name: '邮件营销' },
-                { value: 234, name: '联盟广告' },
-                { value: 135, name: '视频广告' },
-                { value: 1048, name: '百度' },
-                { value: 251, name: '谷歌' },
-                { value: 147, name: '必应' },
-                { value: 102, name: '其他' }
+                { value: 335, name: 'test1' },
+                { value: 310, name: 'test2' },
+                { value: 234, name: 'test3' },
+                { value: 135, name: 'test4' },
+                { value: 1048, name: 'test5' },
+                { value: 251, name: 'test6' },
+                { value: 147, name: 'test7' },
+                { value: 102, name: 'test8' }
+            ]
+        }
+    ]
+};
+// 公网主机系统漏洞情况
+piePublicNetworkHostVulnerabilityOption = {
+    color:["#99CDD3","#1c9fdc","#0096ae","#00e2d1"],
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b}: {c} ({d}%)'
+    },
+    
+    legend: {
+        orient: 'vertical',
+        right: 0,
+        bottom : 40,
+        width : 5,
+        height : 80,
+        itemWidth : 4,
+        itemHeight : 2,
+        data: ['test1', 'test2', 'test3', 'test4', 'test5', 'test6', 'test7', 'test8', 'test11', 'test22', 'test33', 'test44', 'test55'],
+    },
+    textStyle : {
+        fontSize : 2,
+    },
+    series: [
+        {
+            name: '访问来源',
+            type: 'pie',
+            selectedMode: 'single',
+            radius: [0, '30%'],
+            left : -50,
+            label: {
+                position: 'inner'
+            },
+            labelLine: {
+                show: false
+            },
+            data: [
+                { value: 335, name: 'test11'},
+                { value: 679, name: 'test22' },
+                { value: 1548, name: 'test33' },
+                { value: 1548, name: 'test44' },
+                { value: 1548, name: 'test55' },
+
+            ]
+        },
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius: ['40%', '55%'],
+            left : -50,
+            label: {
+               position : 'inner',
+            },
+            data: [
+                { value: 335, name: 'test1' },
+                { value: 310, name: 'test2' },
+                { value: 234, name: 'test3' },
+                { value: 135, name: 'test4' },
+                { value: 1048, name: 'test5' },
+                { value: 251, name: 'test6' },
+                { value: 147, name: 'test7' },
+                { value: 102, name: 'test8' }
+            ]
+        }
+    ]
+};
+// 公网端口暴露情况
+piePublicNetworkPortLeakageOption = {
+    color:["#99cdd3", "#ffc87f", "#0096ae", "#00dfec", "#ffa2c5", ""],
+    tooltip: {
+        trigger: 'item',
+        formatter: '{a} <br/>{b}: {c} ({d}%)'
+    },
+    legend: {
+        orient: 'vertical',
+        right: 0,
+        bottom : 40,
+        width : 5,
+        height : 80,
+        itemWidth : 4,
+        itemHeight : 2,
+        data: ['test1', 'test2', 'test3', 'test4', 'test5', 'test6', 'test7', 'test8', 'test11', 'test22', 'test33', 'test44', 'test55']
+    },
+    textStyle : {
+        fontSize : 2,
+    },
+    series: [
+        {
+            name: '访问来源',
+            type: 'pie',
+            selectedMode: 'single',
+            radius: [0, '30%'],
+            left : -50,
+            label: {
+                position: 'inner'
+            },
+            labelLine: {
+                show: false
+            },
+            data: [
+                { value: 335, name: 'test11'},
+                { value: 679, name: 'test22' },
+                { value: 1548, name: 'test33' },
+                { value: 1548, name: 'test44' },
+                { value: 1548, name: 'test55' },
+
+            ]
+        },
+        {
+            name: '访问来源',
+            type: 'pie',
+            radius: ['40%', '55%'],
+            left : -50,
+            label: {
+               position : 'inner',
+            },
+            data: [
+                { value: 335, name: 'test1' },
+                { value: 310, name: 'test2' },
+                { value: 234, name: 'test3' },
+                { value: 135, name: 'test4' },
+                { value: 1048, name: 'test5' },
+                { value: 251, name: 'test6' },
+                { value: 147, name: 'test7' },
+                { value: 102, name: 'test8' }
             ]
         }
     ]
 };
 
-pieSetWebMon.setOption(pieSetOption)
 
+// Web站点运行监测情况
+pieStationOperationMonitoring.setOption(pieStationOperationMonitoringOption);
+// 公网主机系统漏洞情况
+piePublicNetworkHostVulnerability.setOption(piePublicNetworkHostVulnerabilityOption);
+// 公网端口暴露情况
+piePublicNetworkPortLeakage.setOption(piePublicNetworkPortLeakageOption);
