@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="45">
+    <rect x='0' y='27' width="80" height="18" style="stroke:#3B8DE5" fill="#3B8DE5"/>
+    <path d="M 1,27 L 1,14 L 20,1 L 79,1 L 79,27 Z" style="stroke:#3B8DE5" stroke-width="3" fill='#1A465F'/>
+    <text x='30' y='19' class='tag_number'>56</text>
+    <text x='24' y='40' class='tag_word'>文字</text>
+</svg>
