@@ -19,14 +19,20 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="" />
+    <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="数表盘调整，tag文件更新">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,6 +51,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -60,6 +72,14 @@
       <workItem from="1609315548941" duration="473000" />
       <workItem from="1609727252563" duration="425000" />
     </task>
+    <task id="LOCAL-00001" summary="数表盘调整，tag文件更新">
+      <created>1609729049348</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1609729049348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,6 +109,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="数表盘调整，tag文件更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="数表盘调整，tag文件更新" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog" timestamp="1609727682076">
       <screen x="0" y="0" width="1280" height="680" />
@@ -106,5 +130,13 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="0" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1609236654625" />
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1609729073810">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609729073810" />
+    <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609731320514">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1609731320514" />
   </component>
 </project>
