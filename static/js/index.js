@@ -45,7 +45,7 @@ baroption = {
     color: '#1ABD95',
     grid: {
         height: '50%',
-        top: '15%',
+        top: '5%',
         left: '20%'
     },
     xAxis: {
@@ -83,7 +83,7 @@ baroption = {
     color: '#1ABD95',
     grid: {
         height: '50%',
-        top: '30%',
+        top: '13%',
         left: '20%'
     },
     xAxis: {
@@ -190,6 +190,43 @@ baroption = {
 }
 barExChartsInfo.setOption(baroption)
 
+let barExChartssfcontrol = echarts.init(document.getElementById('bar_exchange_sfcontrol'))
+baroption = {
+    color: '#1ABD95',
+    grid: {
+        height: '50%',
+        width:'70%',
+        top: '10%',
+        right:'15%'
+    },
+    xAxis: {
+        type: 'value',
+        axisLine: {
+            lineStyle: {
+                color: '#e2e2e2'
+            }
+        },
+        axisLabel: {
+            interVal: 0,
+            rotate: -45
+        }
+    },
+    yAxis: {
+        type: 'category',
+        data: ['一', '二', '三', '四', '五'],
+        axisLine: {
+            lineStyle: {
+                color: '#e2e2e2'
+            }
+        }
+    },
+    series: [{
+        data: [120, 200, 150, 80, 70],
+        type: 'bar',
+        barWidth: 10
+    }]
+}
+barExChartssfcontrol.setOption(baroption)
 // let sf_control = echarts.init(document.getElementById('hebeimap_sfcontrol'))
 // // 获取对应省的文件,13.js对应河北
 // $.getJSON('../../data/13.json', function (geoJson) {

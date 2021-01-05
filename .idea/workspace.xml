@@ -19,25 +19,31 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="数表盘调整，tag文件更新">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_18_取消提交了变更_[默认的]/shelved.patch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_28_取消提交了变更_[默认的]/shelved.patch" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_35_取消提交了变更_[默认的]/shelved.patch" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" afterDir="false" />
+>>>>>>> dbf64eafff6eeb4ff4ddda11edb08993a2304820
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +51,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
   </component>
@@ -77,7 +88,11 @@
       <workItem from="1609236446341" duration="410000" />
       <workItem from="1609315548941" duration="473000" />
       <workItem from="1609727252563" duration="425000" />
+<<<<<<< HEAD
       <workItem from="1609750140363" duration="611000" />
+=======
+      <workItem from="1609765551152" duration="2134000" />
+>>>>>>> dbf64eafff6eeb4ff4ddda11edb08993a2304820
     </task>
     <task id="LOCAL-00001" summary="数表盘调整，tag文件更新">
       <created>1609729049348</created>
