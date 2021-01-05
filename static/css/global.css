@@ -9,7 +9,12 @@
     display: flex;
 
 }
-
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
 .title_wrapper {
     position: absolute;
     left: 0;
