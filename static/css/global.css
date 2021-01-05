@@ -152,6 +152,20 @@
     /*设置大小*/
     background-size: 0.15rem 0.6rem, 0.6rem 0.15rem, 0.15rem 0.6rem, 0.6rem 0.15rem;
 }
+/* 切四角 */
+.cut-four{
+    background:
+        linear-gradient(135deg, transparent 2px, deeppink 0)
+        top left,
+        linear-gradient(-135deg, transparent 2px, deeppink 0)
+        top right,
+        linear-gradient(-45deg, transparent 2px, deeppink 0)
+        bottom right,
+        linear-gradient(45deg, transparent 2px, deeppink 0)
+        bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
 
 /* 下线标题 */
 .title_line{

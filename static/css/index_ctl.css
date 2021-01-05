@@ -1,0 +1,184 @@
+.situation_page {
+  background: url(../images/background.png) no-repeat;
+  box-sizing: border-box;
+  width: 3840px;
+  height: 1024px;
+}
+.situation_page .mytable {
+  width: 100%;
+  font-size: 13px;
+  position: relative;
+}
+.situation_page .mytable tr {
+  display: inline-block;
+  width: 100%;
+}
+.situation_page .mytable td {
+  display: inline-block;
+  border: none;
+  padding: 0.4rem 1rem 0.4rem 0.4rem;
+}
+.situation_page .mytable tbody {
+  position: absolute;
+}
+.situation_page .mytable tbody tr:nth-child(even) {
+  background: #1c4a66;
+}
+.situation_page .mytable thead {
+  position: absolute;
+  width: 100%;
+}
+.situation_page .mytable thead tr {
+  background: #1c4a66;
+}
+.situation_page .network_security {
+  padding: 2rem 0.5rem 0;
+  height: 95%;
+}
+.situation_page .network_security .network_security_top {
+  height: 50%;
+  margin-bottom: 2%;
+}
+.situation_page .network_security .network_security_center {
+  height: 20%;
+  margin-bottom: 2%;
+}
+.situation_page .network_security .network_security_bottom {
+  height: 20%;
+}
+.situation_page #safe_line {
+  width: 100%;
+  height: 100%;
+}
+.situation_page .website_monitoring {
+  padding: 2rem 1rem 0;
+  height: 95%;
+}
+.situation_page .website_monitoring .website_monitoring_top {
+  height: 55%;
+  margin-bottom: 2%;
+}
+.situation_page .website_monitoring .website_monitoring_bottom {
+  width: 100%;
+  height: 41%;
+}
+.situation_page .website_monitoring .website_monitoring_bottom ul {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: 6%;
+  list-style: none;
+  width: 100%;
+  height: 85%;
+}
+.situation_page .website_monitoring .website_monitoring_bottom ul li {
+  width: 2.8rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  font-size: 9px;
+  margin-bottom: 0.3rem;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+}
+.situation_page .public_safety {
+  height: 95%;
+  padding: 2rem 2rem 0;
+}
+.situation_page .public_safety .public_safety_top {
+  height: 32%;
+  margin-bottom: 2%;
+}
+.situation_page .public_safety .public_safety_center {
+  height: 25%;
+  margin-bottom: 2%;
+}
+.situation_page .public_safety .public_safety_bottom {
+  height: 32%;
+}
+.situation_page .public_safety .title_inner {
+  font-family: 'LcdD';
+}
+.situation_page .special_topic {
+  margin-top: 1rem;
+  box-sizing: border-box;
+  height: 89%;
+  padding: 1rem 1rem 0;
+}
+.situation_page .special_topic .special_topic_top {
+  height: 16%;
+  margin-bottom: 2%;
+}
+.situation_page .special_topic .special_topic_center {
+  height: 38%;
+  margin-bottom: 2%;
+}
+.situation_page .special_topic .special_topic_bottom {
+  height: 36%;
+}
+.situation_page .special_topic #bar_normal {
+  width: 100%;
+  height: 200px;
+}
+.situation_page .tag_content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.situation_page .tag_content embed {
+  height: 50px;
+  width: 33%;
+}
+.situation_page .information_safety {
+  height: 67%;
+  padding: 2rem 1rem 0;
+}
+.situation_page .information_safety .information_safety_top {
+  height: 31%;
+}
+.situation_page .information_safety .information_safety_center {
+  height: 31%;
+}
+.situation_page .information_safety .information_safety_bottom {
+  height: 31%;
+}
+.situation_page .information_safety #bar_normal_Infosf {
+  width: 100%;
+  height: 200px;
+}
+.situation_page .information_safety #bar_exchange_Infosf {
+  width: 100%;
+  height: 200px;
+}
+.situation_page .network_security_requirements {
+  height: 30%;
+  padding: 1rem;
+}
+.situation_page .network_security_requirements .network_security_requirements_body {
+  height: 100%;
+}
+.situation_page .safety_control {
+  height: 67%;
+  padding: 2rem 1rem 0;
+}
+.situation_page .safety_control .safety_control_top {
+  height: 64%;
+}
+.situation_page .safety_control .safety_control_bottom {
+  height: 31%;
+}
+.situation_page #bar_exchange_sfcontrol {
+  width: 100%;
+  height: 200px;
+}
+.situation_page .network_public_opinion_display {
+  height: 30%;
+  padding: 1rem;
+}
+.situation_page .network_public_opinion_display .network_public_opinion_display_body {
+  height: 100%;
+}
