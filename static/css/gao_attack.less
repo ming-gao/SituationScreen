@@ -1,0 +1,250 @@
+
+.situation_page{
+    .mytable{
+        width: 100%;
+        font-size: 13px;
+        position: relative;
+        tr{
+            display: inline-block;
+            width: 100%;
+        }
+        td{
+            display: inline-block;
+            border: none;
+            padding: 0.4rem 1rem 0.4rem 0.4rem;
+        }
+        tbody{
+            position: absolute;
+            tr:nth-child(even){
+                background: rgb(28,74,102);
+            }
+           
+        }
+        thead{
+            position: absolute;
+            width: 100%;
+            tr{
+                background:  rgb(28,74,102);
+            }
+        }
+    }
+    background: url(../images/background.png) no-repeat;
+    box-sizing: border-box;
+    width: 3840px;
+    height: 1024px;
+    // 网络安全
+    .network_security{
+        padding: 2rem 0.5rem 0;
+        height: 95%;
+        .network_security_top{
+            height: 50%;
+            margin-bottom: 2%;
+        }
+        .network_security_center{
+            height: 20%;
+            margin-bottom: 2%;
+        }
+        .network_security_bottom{
+            height: 20%;
+        }
+        
+    }
+    #safe_line{
+        width: 100%;
+        height: 100%;
+    }
+    .alert-sec-circle {
+		stroke-dashoffset: -440;
+		stroke-dasharray: 735;
+		transition: stroke-dashoffset 1s linear;
+    }
+    // 攻击状态框体
+    .attack_Chart{
+        width: 500px;
+        background-color: #254A60;    
+        height: 100px;
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+    // 饼图
+    .attack_pie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+    }
+    
+    .attack_pie span{
+        // display: flex;
+        // justify-content: center;
+        color: #fff;
+        font-size: 10px;
+    }
+    .attack_pie div{
+        height: 50px;
+        width: 50px;
+        background: url("../images/attack.svg") no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'LcdD';
+    }
+    // 控制旋转
+    .attack_pie div:nth-child(7){
+        background: url("../images/attack-green.svg") no-repeat;
+        transform: rotate(30deg);
+    }
+    .attack_pie div:nth-child(7) span{
+        transform: rotate(-30deg);
+    }
+    .attack_pie div:nth-child(3){
+        background: url("../images/attack-green.svg") no-repeat;
+    }
+    .attack_pie img{
+        height: 20px;
+        width: 8px;
+    }
+    // 下方文字
+    .attack_word{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 10px;
+    }
+    .attack_word span{
+        text-align: center;
+        width: 100%;
+    }
+    // 重保网站监控
+    .website_monitoring{
+        padding: 2rem 1rem 0;
+        height: 95%;
+        .website_monitoring_top{
+            height: 55%;
+            margin-bottom: 2%;
+        }
+        .website_monitoring_bottom{
+            height: 41%;
+        }
+    }
+
+    //公共安全
+    .public_safety{
+        height: 95%;
+        padding: 2rem 2rem 0;
+        // 顶部
+        .public_safety_top{
+            height: 32%;
+            margin-bottom: 2%;
+        }
+        .public_safety_center{
+            height: 25%;
+            margin-bottom: 2%;
+        }
+        .public_safety_bottom{
+            height: 32%;
+        }
+        .title_inner{
+            font-family: 'LcdD';
+        }
+    }
+
+
+    //五反专题
+    .special_topic{ 
+        margin-top: 1rem;
+        box-sizing: border-box;
+        height: 89%;
+        padding: 1rem 1rem 0;
+        .special_topic_top{
+            height: 16%;
+            margin-bottom: 2%;
+        }
+        .special_topic_center{
+            height: 38%;
+            margin-bottom: 2%;
+        }
+        .special_topic_bottom{
+            height: 36%;
+        }
+        #bar_normal{
+            width: 100%;
+            height: 200px;
+        }
+    }
+    .tag_content{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .tag_content embed{
+        height: 50px;
+        width: 33%;
+    }
+
+    //信息安全
+    .information_safety{
+        height: 67%;
+        padding: 2rem 1rem 0;
+        .information_safety_top{
+            height: 31%;
+        }
+        .information_safety_center{
+            height: 31%;
+        }
+        .information_safety_bottom{
+            height: 31%;
+        }
+        #bar_normal_Infosf{
+            width: 100%;
+            height: 200px;
+        }
+        #bar_exchange_Infosf{
+            width: 100%;
+            height: 200px;
+        }
+    }
+    
+
+    //网络安全工作要求
+    .network_security_requirements{
+        height: 30%;
+        padding: 1rem;
+        .network_security_requirements_body{
+            height: 100%;
+        }
+    }
+
+    //安全管控
+    .safety_control{
+        height: 67%;
+        padding: 2rem 1rem 0;
+        .safety_control_top{
+            height: 64%;
+        }
+       
+        .safety_control_bottom{
+            height: 31%;
+        }
+    }
+    #bar_exchange_sfcontrol{
+        width: 100%;
+        height: 200px;
+    }
+
+
+    //网咯舆情展示
+    .network_public_opinion_display{
+        height: 30%;
+        padding: 1rem;
+        .network_public_opinion_display_body{
+            height: 100%;
+        }
+    }
+   
+}
