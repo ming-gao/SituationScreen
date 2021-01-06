@@ -672,3 +672,69 @@ pieEquipmentAuthorizationControlOption = {
 };
 
 pieEquipmentAuthorizationControl.setOption(pieEquipmentAuthorizationControlOption);
+
+
+// 流量攻击
+var lineTrafficAttack = echarts.init(document.getElementById("line_traffic_attack"));
+lineTrafficAttackOption = {
+    color : ["#0096ae", "#1abd95", ],
+    grid : {
+        top : "20%",
+        left : "15%",
+        height : "60%",
+        width : "75%",
+    },
+    xAxis: {
+        type: 'category',
+        boundaryGap: false,
+        data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+        axisLabel: {
+            interVal: 0,
+            rotate: -45
+        },
+        axisLine: {
+            lineStyle: {
+                color: '#e2e2e2'
+            }
+        },
+    },
+    yAxis: {
+        type: 'value',
+        axisLine: {
+            lineStyle: {
+                color: '#e2e2e2'
+            }
+        },
+    },
+    series: [
+        {
+            data: [820, 932, 901, 934, 1290, 1330, 1320],
+            type: 'line',
+            areaStyle: {
+                color: {
+                    type: 'linear',
+                    x: 0,
+                    y: 0,
+                    x2: 0,
+                    y2: 1,
+                    colorStops: [{
+                        offset: 0, color: 'red' // 0% 处的颜色
+                    }, {
+                        offset: 1, color: 'blue' // 100% 处的颜色
+                    }],
+                    global: false // 缺省为 false
+                }
+            },
+            smooth : 1,
+        },
+        {
+            data: [720, 832, 801, 834, 1190, 930, 1120],
+            type: 'line',
+            areaStyle: {
+               
+            },
+            smooth : 1,
+        }
+    ]
+};
+lineTrafficAttack.setOption(lineTrafficAttackOption);
