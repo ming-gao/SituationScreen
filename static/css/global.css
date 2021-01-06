@@ -2,7 +2,9 @@
     src: url('../font/LCDD.TTF');
     font-family: 'LcdD';
 }
-
+body{
+    font-family: 'LcdD';
+}
 .border_large {
     border: 2px solid #468e72;
     position: relative;

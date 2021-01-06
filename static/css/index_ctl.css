@@ -116,6 +116,27 @@
   height: 38%;
   margin-bottom: 2%;
 }
+.situation_page .special_topic .special_topic_center table {
+  font-size: 9px;
+}
+.situation_page .special_topic .special_topic_center .special_topic_center_DNSNumber div {
+  font-size: 9px;
+  margin-bottom: 5%;
+  color: #fff;
+}
+.situation_page .special_topic .special_topic_center .special_topic_center_DNSNumber div span {
+  display: inline-block;
+  width: 3.2rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  margin-left: 6px;
+  vertical-align: middle;
+  background-color: #235566;
+  color: #f2e04b;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 4px;
+}
 .situation_page .special_topic .special_topic_bottom {
   height: 36%;
 }

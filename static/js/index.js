@@ -738,3 +738,36 @@ lineTrafficAttackOption = {
     ]
 };
 lineTrafficAttack.setOption(lineTrafficAttackOption);
+
+
+// DNS劫持
+var DNSHijackingNumber = 85;
+var DNSHijacking = echarts.init(document.getElementById("DNS_hijacking"));
+DNSHijackingOption = {
+    color : ["#1abd95", "#28414f"],
+    title : {
+        text : DNSHijackingNumber + "%",
+        left : "center",
+        top : "center",
+        textStyle : {
+            color : "#f6e34c",
+            fontFamily : "LcdD"
+        }
+    },
+    series: [
+        {
+            name: '',
+            type: 'pie',
+            radius: ["70%","50%"],
+            labelLine: {
+                show: false
+            },
+            data: [
+                {value: DNSHijackingNumber},
+                {value: 100-DNSHijackingNumber},
+                
+            ]
+        }
+    ]
+};
+DNSHijacking.setOption(DNSHijackingOption);
