@@ -290,7 +290,7 @@
                                 DNS劫持
                             </div>
                             <div class="d-flex justify-content-start align-items-center" style="height: 40%;width: 100%;">
-                                <div id="DNS_hijacking" style="height: 100%;width: 40%;"></div>
+                                <div id="pie_DNS_hijacking" style="height: 100%;width: 40%;"></div>
                                 <div class="special_topic_center_DNSNumber">
                                     <div>
                                         监控DNS服务器个数<span>2</span>
@@ -383,8 +383,14 @@
 
                             <!-- CDN劫持 -->
                             <div class="row border-four h-59" style="margin-bottom: 4%;">
-                                <div class="title_line">
-                                    CDN劫持
+                                <div class="col">
+                                    <div class="title_line">
+                                        CDN劫持
+                                    </div>
+                                    <div class="d-flex w-100 h-100">
+                                        <div id="pie_CDN_hijacking_left" class="w-50 h-100"></div>
+                                        <div id="pie_CDN_hijacking_right" class="w-50 h-100"></div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -468,7 +474,7 @@
                                 <div class="title_line">
                                     实时报警通报
                                 </div>
-                                <div class="overflow-hidden" style="width: 100%;height: 80%;">
+                                <div class="overflow-hidden" style="width: 100%;height: 70%;margin-top: 4%;">
                                     <table class="text-white table text-center mytable">
                                         <thead style="z-index: 2;">
                                             <tr>
@@ -582,7 +588,7 @@
 
                             <div class="col mr-2" style="padding: 0;">
                                 <!-- 安全工单处理情况 -->
-                                <div class="h-48 border-four mb-3">
+                                <div class="col h-48 border-four mb-3">
                                     <div class="title_line">
                                         安全工单处理情况<small>（近一天）</small>
                                     </div>
@@ -590,7 +596,7 @@
                                 </div>
 
                                 <!-- 主账号操作审计 -->
-                                <div class="h-48 border-four">
+                                <div class="col h-48 border-four">
                                     <div class="title_line">
                                         主账号操作审计<small>（近一天）</small>
                                     </div>

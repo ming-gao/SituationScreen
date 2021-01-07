@@ -742,8 +742,8 @@ lineTrafficAttack.setOption(lineTrafficAttackOption);
 
 // DNS劫持
 var DNSHijackingNumber = 85;
-var DNSHijacking = echarts.init(document.getElementById("DNS_hijacking"));
-DNSHijackingOption = {
+var pieDNSHijacking = echarts.init(document.getElementById("pie_DNS_hijacking"));
+pieDNSHijackingOption = {
     color : ["#1abd95", "#28414f"],
     title : {
         text : DNSHijackingNumber + "%",
@@ -770,4 +770,72 @@ DNSHijackingOption = {
         }
     ]
 };
-DNSHijacking.setOption(DNSHijackingOption);
+pieDNSHijacking.setOption(pieDNSHijackingOption);
+
+// CND劫持
+var pieCDNNumberOfProblems = 4;     //存在问题数
+var pieCDNProcessingNumber = 10;    //处理数
+var pieCDNHijackingLeft = echarts.init(document.getElementById("pie_CDN_hijacking_left"));
+pieCDNHijackingLeftOption = {
+    color : ["#1abd95", "#28414f"],
+   
+    title : {
+        text : pieCDNNumberOfProblems + "/" + pieCDNProcessingNumber,
+        left : "center",
+        top : "35%",
+        textStyle : {
+            color : "#f6e34c",
+            fontFamily : "LcdD"
+        }
+    },
+    series: [
+        {
+            name: '',
+            type: 'pie',
+            radius: ["70%","50%"],
+            top : "-15%",
+            labelLine: {
+                show: false
+            },
+            data: [
+                {value: pieCDNNumberOfProblems},
+                {value: pieCDNProcessingNumber-pieCDNNumberOfProblems},
+                
+            ]
+        }
+    ]
+};
+pieCDNHijackingLeft.setOption(pieCDNHijackingLeftOption);
+
+//右
+var CDNHijackingNumber = 85;
+var pieCDNHijackingRight = echarts.init(document.getElementById("pie_CDN_hijacking_right"));
+pieCDNHijackingRightOption = {
+    color : ["#1abd95", "#28414f"],
+    title : {
+        text : CDNHijackingNumber + "%",
+        left : "center",
+        top : "30%",
+        textStyle : {
+            color : "#f6e34c",
+            fontFamily : "LcdD"
+        }
+    },
+    series: [
+        {
+            name: '',
+            type: 'pie',
+            radius: ["70%","50%"],
+            top : "-30%",
+            labelLine: {
+                show: false
+            },
+            data: [
+                {value: CDNHijackingNumber},
+                {value: 100-CDNHijackingNumber},
+                
+            ]
+        }
+    ]
+};
+pieCDNHijackingRight.setOption(pieCDNHijackingRightOption);
