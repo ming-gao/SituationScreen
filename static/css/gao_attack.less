@@ -53,8 +53,72 @@
         width: 100%;
         height: 100%;
     }
+    .alert-sec-circle {
+		stroke-dashoffset: -440;
+		stroke-dasharray: 735;
+		transition: stroke-dashoffset 1s linear;
+    }
+    // 攻击状态框体
+    .attack_Chart{
+        width: 500px;
+        background-color: #254A60;    
+        height: 100px;
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+    // 饼图
+    .attack_pie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+    }
     
-    
+    .attack_pie span{
+        // display: flex;
+        // justify-content: center;
+        color: #fff;
+        font-size: 10px;
+    }
+    .attack_pie div{
+        height: 50px;
+        width: 50px;
+        background: url("../images/attack.svg") no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'LcdD';
+    }
+    // 控制旋转
+    .attack_pie div:nth-child(7){
+        background: url("../images/attack-green.svg") no-repeat;
+        transform: rotate(30deg);
+    }
+    .attack_pie div:nth-child(7) span{
+        transform: rotate(-30deg);
+    }
+    .attack_pie div:nth-child(3){
+        background: url("../images/attack-green.svg") no-repeat;
+    }
+    .attack_pie img{
+        height: 20px;
+        width: 8px;
+    }
+    // 下方文字
+    .attack_word{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 10px;
+    }
+    .attack_word span{
+        text-align: center;
+        width: 100%;
+    }
     // 重保网站监控
     .website_monitoring{
         padding: 2rem 1rem 0;
@@ -118,7 +182,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .tag_content iframe{
+    .tag_content embed{
         height: 50px;
         width: 33%;
     }

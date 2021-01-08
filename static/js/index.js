@@ -157,9 +157,9 @@ baroption = {
     color: '#1ABD95',
     grid: {
         height: '50%',
-        width:'60%',
-        top: '15%',
-        right:'10%'
+        width:'50%',
+        top: '18%',
+        right:'15%'
     },
     xAxis: {
         type: 'value',
