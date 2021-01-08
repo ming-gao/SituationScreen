@@ -6,35 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             margin: 0;
         }
+
         iframe {
             width: 40%;
             height: 55px;
         }
-        .situation_page_tag{
+
+        .situation_page_tag {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-around;
         }
-        .situation_page_tag iframe:nth-child(1){
 
-        }
+        .situation_page_tag iframe:nth-child(1) {}
     </style>
 </head>
 
 <body>
     <div class="situation_page_tag">
-        <iframe src="./static/images/svgEE.svg" frameborder="0"></iframe>
-        <iframe src="./static/images/svgEE.svg" frameborder="0"></iframe>
-        <iframe src="./static/images/svgEE.svg" frameborder="0"></iframe>
-        <iframe src="./static/images/svgEE.svg" frameborder="0"></iframe>
-        <iframe src="./static/images/svgEE.svg" frameborder="0"></iframe>
-        <iframe src="./static/images/svgEE.svg" frameborder="0"></iframe>
+        <iframe id="myiframe" src="./static/images/svgEE.svg" frameborder="0"></iframe>
+        <iframe id='myiframeGreen' src="./static/images/svgEE-green.svg" frameborder="0"></iframe>
+        <iframe id='myiframeGreen2' src="./static/images/svgEE-green.svg" frameborder="0"></iframe>
+        <iframe id='myiframe2' src="./static/images/svgEE.svg" frameborder="0"></iframe>
+        <iframe id='myiframeOrange' src="./static/images/svgEE-orange.svg" frameborder="0"></iframe>
+        <iframe id='myiframeOrange2' src="./static/images/svgEE-orange.svg" frameborder="0"></iframe>
     </div>
-    
+
 </body>
+<script>
+    var iframe = document.getElementById('myiframe'); //获取id为myiframe的iframe对象
+    if (iframe.attachEvent) {
+        iframe.attachEvent('onload', function () {
+            alert('iframe is loaded')
+        })
+    } else {
+        iframe.onload = function () {
+            //这里获取svgDom
+            var iframeSvg = document.getElementById('myiframe').contentDocument;
+            //接下来就可以对svgDom进行操作，绑定元素点击事件，改变元素的属性等等
+            
+            console.log('SUCCESS');
+            iframeSvg.getElementById('tag_number').textContent = '45'
+            iframeSvg.getElementById('tag_word').textContent = '网络部'
+        }
+    }
+    var myiframeGreen = document.getElementById('myiframeGreen');
+    myiframeGreen.onload = function () {
+        var iframeSvg = document.getElementById('myiframeGreen').contentDocument;
+        iframeSvg.getElementById('tag_number').textContent = '4'
+        iframeSvg.getElementById('tag_word').textContent = '市场部'
+    }
+    var myiframeGreen2 = document.getElementById('myiframeGreen2');
+    myiframeGreen2.onload = function () {
+        var iframeSvg = document.getElementById('myiframeGreen2').contentDocument;
+        iframeSvg.getElementById('tag_number').textContent = '11'
+        iframeSvg.getElementById('tag_word').textContent = '业支'
+    }
+    var myiframe2 = document.getElementById('myiframe2');
+    myiframe2.onload = function () {
+        var iframeSvg = document.getElementById('myiframe2').contentDocument;
+        iframeSvg.getElementById('tag_number').textContent = '45'
+        iframeSvg.getElementById('tag_word').textContent = '政企'
+    }
+    var myiframeOrange2 = document.getElementById('myiframeOrange2');
+    myiframeOrange2.onload = function () {
+        var iframeSvg = document.getElementById('myiframeOrange2').contentDocument;
+        iframeSvg.getElementById('tag_number').textContent = '23'
+        iframeSvg.getElementById('tag_word').textContent = '其他'
+    }
+    var myiframeOrange = document.getElementById('myiframeOrange');
+    myiframeOrange.onload = function () {
+        var iframeSvg = document.getElementById('myiframeOrange').contentDocument;
+        iframeSvg.getElementById('tag_number').textContent = '90'
+        iframeSvg.getElementById('tag_word').textContent = '信安'
+    }
+    
+</script>
 
 </html>

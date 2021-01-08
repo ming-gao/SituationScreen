@@ -171,7 +171,7 @@
                                     <div class="title_line">
                                         自有网站
                                     </div>
-                                    <iframe src="../tag.html" frameborder="0" style="height: 105%;width: 100%;"></iframe>
+                                    <iframe id="myiframe" src="../tag.html" frameborder="0" style="height: 80%;width: 100%;margin-top: 30px;"></iframe>
                                </div>
                             </div>
 
@@ -251,12 +251,12 @@
                                 五反流量攻击告警
                             </div>
                             <div class="tag_content">
-                                <embed class="svgiframe" src="../static/images/svgEE.svg" frameborder="0"></embed>
-                                <embed class="svgiframe" src="../static/images/svgEE.svg" frameborder="0"></embed>
-                                <embed class="svgiframe" src="../static/images/svgEE.svg" frameborder="0"></embed>
-                                <embed class="svgiframe" src="../static/images/svgEE.svg" frameborder="0"></embed>
-                                <embed class="svgiframe" src="../static/images/svgEE.svg" frameborder="0"></embed>
-                                <embed class="svgiframe" src="../static/images/svgEE.svg" frameborder="0"></embed>
+                                <iframe id="myiframeGreen" src="../static/images/svgEE-green.svg" frameborder="0"></iframe>
+                                <iframe id="myiframe1" src="../static/images/svgEE.svg" frameborder="0"></iframe>
+                                <iframe id="myiframeOrange" src="../static/images/svgEE-orange.svg" frameborder="0"></iframe>
+                                <iframe id="myiframe2" src="../static/images/svgEE.svg" frameborder="0"></iframe>
+                                <iframe id="myiframe3" src="../static/images/svgEE.svg" frameborder="0"></iframe>
+                                <iframe id="myiframe4" src="../static/images/svgEE.svg" frameborder="0"></iframe>
                             </div>
                         </div>
 
@@ -289,6 +289,7 @@
                                 <div class="title_line">
                                     CDN劫持
                                 </div>
+                                <div id="CDN_pie" style="width: 280px; height: 150px;"></div>
                             </div>
 
                             <!-- 短彩信控制 -->
@@ -552,7 +553,56 @@
             </div>
         </div>
     </div>
+    <script>
+        var myiframe1 = document.getElementById('myiframe1'); //获取id为myiframe的iframe对象
+        if (myiframe1.attachEvent) {
+            myiframe1.attachEvent('onload', function () {
+                alert('iframe is loaded')
+            })
+        } else {
+            myiframe1.onload = function () {
+                //这里获取svgDom
+                var iframeSvg = document.getElementById('myiframe1').contentDocument;
+                //接下来就可以对svgDom进行操作，绑定元素点击事件，改变元素的属性等等
+                
+                iframeSvg.getElementById('tag_number').textContent = '45'
+                iframeSvg.getElementById('tag_word').textContent = '处置超时数'
+            }
+        }
+        var myiframeGreen = document.getElementById('myiframeGreen');
+        myiframeGreen.onload = function () {
+            var iframeSvg = document.getElementById('myiframeGreen').contentDocument;
+            iframeSvg.getElementById('tag_number').textContent = '334'
+            iframeSvg.getElementById('tag_word').textContent = '网站篡改次数'
+        }
+        var myiframe2 = document.getElementById('myiframe2');
+        myiframe2.onload = function () {
+            var iframeSvg = document.getElementById('myiframe2').contentDocument;
+            iframeSvg.getElementById('tag_number').textContent = '11'
+            iframeSvg.getElementById('tag_word').textContent = '网站攻击次数'
+        }
+        var myiframe3 = document.getElementById('myiframe3');
+        myiframe3.onload = function () {
+            var iframeSvg = document.getElementById('myiframe3').contentDocument;
+            iframeSvg.getElementById('tag_number').textContent = '45'
+            iframeSvg.getElementById('tag_word').textContent = 'DNS劫持次数'
+        }
+        var myiframeOrange = document.getElementById('myiframeOrange');
+        myiframeOrange.onload = function () {
+            var iframeSvg = document.getElementById('myiframeOrange').contentDocument;
+            iframeSvg.getElementById('tag_number').textContent = '23'
+            iframeSvg.getElementById('tag_word').textContent = 'CDN劫持次数'
+        }
+        var myiframe4 = document.getElementById('myiframe4');
+        myiframe4.onload = function () {
+            var iframeSvg = document.getElementById('myiframe4').contentDocument;
+            iframeSvg.getElementById('tag_number').textContent = '90'
+            iframeSvg.getElementById('tag_word').textContent = '短信控制数'
+        }
+    </script>
     <script src="../static/js/index.js"></script>
+    <!-- 柱状图，饼图 -->
+    <script src="../static/js/myecharts.js"></script>
     <!-- 表格控制 -->
    <script src="../static/js/table.js"></script>
 </body>

@@ -106,7 +106,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
-.situation_page .tag_content embed {
+.situation_page .tag_content iframe {
   height: 50px;
   width: 33%;
 }
