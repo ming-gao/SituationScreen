@@ -140,6 +140,17 @@
 .situation_page .special_topic .special_topic_bottom {
   height: 36%;
 }
+.situation_page .special_topic .special_topic_bottom .SMS_control p {
+  margin: 0;
+  padding: 0;
+  color: #5bc6a8;
+  font-size: 9px;
+}
+.situation_page .special_topic .special_topic_bottom .SMS_control p span {
+  font-size: 40px;
+  color: #f6e34c;
+  margin-right: 1rem;
+}
 .situation_page .special_topic #bar_normal {
   width: 100%;
   height: 200px;
@@ -189,8 +200,56 @@
 .situation_page .safety_control .safety_control_top {
   height: 64%;
 }
+.situation_page .safety_control .safety_control_top .C_dial_meter ul li {
+  text-align: center;
+}
+.situation_page .safety_control .safety_control_top .C_dial_meter ul li h3 {
+  margin: 0;
+  font-size: 22px;
+  color: #f6e34c;
+}
+.situation_page .safety_control .safety_control_top .C_dial_meter ul li p {
+  margin: 0;
+  font-size: 8px;
+  color: #4fb19a;
+}
+.situation_page .safety_control .safety_control_top .C_dial_meter ul .vertical_line {
+  float: left;
+  width: 1px;
+  height: 1rem;
+  background-color: #476977;
+  margin-top: 0.3rem;
+}
 .situation_page .safety_control .safety_control_bottom {
   height: 31%;
+}
+.situation_page .safety_control .safety_control_bottom .configuration_compliance,
+.situation_page .safety_control .safety_control_bottom .system_FLAW {
+  font-size: 13px;
+  margin-left: -1rem;
+}
+.situation_page .safety_control .safety_control_bottom .configuration_compliance p,
+.situation_page .safety_control .safety_control_bottom .system_FLAW p {
+  margin: 0;
+  padding: 0;
+}
+.situation_page .safety_control .safety_control_bottom .configuration_compliance p small,
+.situation_page .safety_control .safety_control_bottom .system_FLAW p small {
+  color: #fff;
+  text-align: right;
+  display: inline-block;
+  width: 4rem;
+}
+.situation_page .safety_control .safety_control_bottom .configuration_compliance p span,
+.situation_page .safety_control .safety_control_bottom .system_FLAW p span {
+  display: inline-block;
+  width: 2.8rem;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  color: #f6e34c;
+  background-color: #225361;
+  border-radius: 4px;
 }
 .situation_page #bar_exchange_sfcontrol {
   width: 100%;

@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="../static/css/gao_attack.css">
     <script src="../static/assets/jquery-3.5.1.js"></script>
     <script src="../static/assets/echarts/echarts.js"></script>
-    
+
     <!-- <script src="../static/assets/echarts/china.js"></script> -->
 
     <title>Document</title>
@@ -162,51 +162,48 @@
                         </div>
 
                         <!-- 地图 -->
-                        <div class="col-7 mr-2" style="flex:0 0 56%;" >
+                        <div class="col-7 mr-2" style="flex:0 0 56%;">
                             <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
                         </div>
                         <div class="col">
 
                             <!-- 数表盘 -->
                             <div class="row border-four h-49" style="margin-bottom: 4%;">
-                               <div class="col">
+                                <div class="col">
                                     <div class="title_line">
                                         自有网站
                                     </div>
-                                    <iframe src="../tag.html" frameborder="0" style="height: 105%;width: 100%;"></iframe>
-                               </div>
+                                    <iframe src="../tag.html" frameborder="0"
+                                        style="height: 105%;width: 100%;"></iframe>
+                                </div>
                             </div>
 
                             <!-- Web站点运行监测情况 -->
                             <div class="row border-four h-49">
-                               <div class="col">
+                                <div class="col">
                                     <div class="title_line">
                                         Web站点运行监测情况
                                     </div>
-                                    <div id="pie_station_operation_monitoring" style="width: 100%; height: 100%;" ></div>
-                               </div>
+                                    <div id="pie_station_operation_monitoring" style="width: 100%; height: 100%;"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-around website_monitoring_bottom ">
 
                         <!-- 重点网站监测 -->
-                        <div class="col-7 border-four mr-2" style="flex:0 0 56%;"  >
+                        <div class="col-7 border-four mr-2" style="flex:0 0 56%;">
                             <div class="title_line">
                                 重点网站监测
                             </div>
                             <ul id="keyWebsiteMonitoring">
-                                <li >校讯通</li>
-                                <li>教育云</li>
-                                <li>校讯通</li>
-                                <li>教育云</li>
-                                <li>校讯通</li>
+                               
                             </ul>
                         </div>
 
                         <!-- 右下区域 -->
                         <div class="col border-four">
-                            
+
                         </div>
                     </div>
                 </div>
@@ -220,11 +217,11 @@
 
                     <!-- 顶部地图 -->
                     <div class="row public_safety_top justify-content-center border-four">
-                       <div class="col">
+                        <div class="col">
                             <div class="title_line">
                                 全区/重点区域监控
                             </div>
-                       </div>
+                        </div>
                     </div>
 
                     <!-- 中间表格 -->
@@ -289,7 +286,8 @@
                             <div class="title_line">
                                 DNS劫持
                             </div>
-                            <div class="d-flex justify-content-start align-items-center" style="height: 40%;width: 100%;">
+                            <div class="d-flex justify-content-start align-items-center"
+                                style="height: 40%;width: 100%;">
                                 <div id="pie_DNS_hijacking" style="height: 100%;width: 40%;"></div>
                                 <div class="special_topic_center_DNSNumber">
                                     <div>
@@ -396,9 +394,22 @@
 
                             <!-- 短彩信控制 -->
                             <div class="row border-four h-38">
-                                <div class="title_line">
-                                    短彩信控制
-                                </div>
+                               <div class="col">
+                                    <div class="title_line">
+                                        短彩信控制
+                                    </div>
+                                    <div class="SMS_control mt-1 d-flex justify-content-around">
+                                        <div>
+                                            <p><span>2</span><small>个</small></p>
+                                            <p>客户投诉数</p>
+                                        </div>
+                                        <div style="margin-top: .5rem; width: 1px;height: 4rem;background-color: #5bc6a8;"></div>
+                                        <div>
+                                            <p><span>0</span><small>个</small></p>
+                                            <p>处理数</p>
+                                        </div>
+                                    </div>
+                               </div>
                             </div>
                         </div>
 
@@ -407,7 +418,7 @@
                             <div class="title_line">
                                 网页篡改
                             </div>
-                            <div id="pie_webpage_tampering"></div>
+                            <div id="pie_webpage_tampering" class="h-40 w-100"></div>
                             <div id="bar_normal"></div>
                         </div>
                     </div>
@@ -600,17 +611,106 @@
                                     <div class="title_line">
                                         主账号操作审计<small>（近一天）</small>
                                     </div>
+                                    <div class="C_dial_meter mt-4">
+                                        <ul class="d-flex justify-content-around">
+                                            <li>
+                                                <h3>1122</h3>
+                                                <p>登录账号数</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>26788</h3>
+                                                <p>无登录账号数</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>439</h3>
+                                                <p>长期未使用主账号</p>
+                                                <p>（近三个月）</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="d-flex justify-content-around">
+                                            <li>
+                                                <h3>20011</h3>
+                                                <p>协作账号数</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+
+                                            <li>
+                                                <h3>4</h3>
+                                                <p>尴权主账号</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>4</h3>
+                                                <p>绕行主账号</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>89</h3>
+                                                <p>高位操作主账号</p>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             <div class="col " style="padding: 0;">
                                 <!-- 弱口令分析 -->
                                 <div class="h-48 border-four mb-3">
-
+                                    <div class="row p-2">
+                                        <div class="col">
+                                            <div class="title_point">弱口令分析</div>
+                                            <div class="C_dial_meter">
+                                                <ul class="d-flex justify-content-around">
+                                                    <li>
+                                                        <h3>542</h3>
+                                                        <p>弱口令数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>290</h3>
+                                                        <p>涉及设备数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>0</h3>
+                                                        <p>root弱口令数</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-2">
+                                        <div class="col">
+                                            <div class="title_point">防火墙策略</div>
+                                            <div class="C_dial_meter">
+                                                <ul class="d-flex justify-content-around">
+                                                    <li>
+                                                        <h3>8721</h3>
+                                                        <p>不合规策略数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>156</h3>
+                                                        <p>不合规设备数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>117</h3>
+                                                        <p>Any To Any</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <!-- 全省合规率 -->
                                 <div class="h-48 border-four">
-
+                                    <div class="col w-100 h-100">
+                                        <div class="title_point">全省合规率</div>
+                                        <div id="line_provincial_compliance_rate" class="w-100 h-100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -620,9 +720,7 @@
                                 <div class="title_line">
                                     主账号设备授权限管控<small>(近三个月)</small>
                                 </div>
-                                <div id="pie_equipment_authorization_control" style="width: 100%;height: 100%;">
-
-                                </div>
+                                <div id="pie_equipment_authorization_control" style="width: 100%;height: 100%;"></div>
                             </div>
 
                             <!-- 异常操作组合 -->
@@ -630,10 +728,33 @@
                                 <div class="title_line">
                                     异常操作组合<small>（近一天）</small>
                                 </div>
+                                <div id="bar_exception_operation_combination" class="w-100 h-100"></div>
                             </div>
 
                             <!-- 配置合规 -->
-                            <div class="col border-four"></div>
+                            <div class="col border-four">
+                                <div class="w-100 h-50">
+                                    <div class="title_point">配置合规</div>
+                                    <div class="d-flex w-100 h-75">
+                                        <div id="pie_configuration_compliance" class="w-50"></div>
+                                        <div class="configuration_compliance">
+                                            <p><small>资产数</small> <span>919</span></p>                              
+                                            <p><small>业务系统数</small> <span>66</span></p>                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 h-50">
+                                    <div class="title_point">系统漏洞</div>
+                                    <div class="d-flex w-100 h-75">
+                                        <div id="pie_system_FLAW" class="w-50"></div>
+                                        <div class="system_FLAW">
+                                            <p><small>高危漏洞</small> <span>110</span></p>                              
+                                            <p><small>中危漏洞</small> <span>808</span></p>  
+                                            <p><small>低危漏洞</small> <span>66</span></p>  
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -658,8 +779,8 @@
 
     <script src="../static/js/index.js"></script>
     <!-- 表格控制 -->
-   <script src="../static/js/table.js"></script>
-   <script src="../static/js/ctl.js"></script>
+    <script src="../static/js/table.js"></script>
+    <script src="../static/js/ctl.js"></script>
 </body>
 
 </html>
