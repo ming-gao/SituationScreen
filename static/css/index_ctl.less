@@ -1,86 +1,101 @@
-
-.situation_page{
-    .mytable{
+.situation_page {
+    .mytable {
         width: 100%;
         font-size: 13px;
         position: relative;
-        tr{
+
+        tr {
             display: inline-block;
             width: 100%;
         }
-        td{
+
+        td {
             display: inline-block;
             border: none;
             padding: 0.4rem 1rem 0.4rem 0.4rem;
         }
-        tbody{
+
+        tbody {
             position: absolute;
-            tr:nth-child(even){
-                background: rgb(28,74,102);
+
+            tr:nth-child(even) {
+                background: rgb(28, 74, 102);
             }
-           
+
         }
-        thead{
+
+        thead {
             position: absolute;
             width: 100%;
-            tr{
-                background:  rgb(28,74,102);
+
+            tr {
+                background: rgb(28, 74, 102);
             }
         }
     }
+
     background: url(../images/background.png) no-repeat;
     box-sizing: border-box;
     width: 3840px;
     height: 1024px;
+
     // 网络安全
-    .network_security{
+    .network_security {
         padding: 2rem 0.5rem 0;
         height: 95%;
-        .network_security_top{
+
+        .network_security_top {
             height: 50%;
             margin-bottom: 2%;
         }
-        .network_security_center{
+
+        .network_security_center {
             height: 20%;
             margin-bottom: 2%;
         }
-        .network_security_bottom{
+
+        .network_security_bottom {
             height: 20%;
         }
-        
+
     }
-    #safe_line{
+
+    #safe_line {
         width: 100%;
         height: 100%;
     }
-    
-    
+
+
     // 重保网站监控
-    .website_monitoring{
+    .website_monitoring {
         padding: 2rem 1rem 0;
         height: 95%;
-        .website_monitoring_top{
+
+        .website_monitoring_top {
             height: 55%;
             margin-bottom: 2%;
         }
-        .website_monitoring_bottom{
+
+        .website_monitoring_bottom {
             width: 100%;
             height: 41%;
-            ul{
+
+            ul {
                 overflow: hidden;
-                display: flex;       
+                display: flex;
                 justify-content: center;
-                align-content: flex-start;  
-                flex-wrap: wrap;       
+                align-content: flex-start;
+                flex-wrap: wrap;
                 padding: 0;
                 margin-top: 6%;
                 list-style: none;
                 width: 100%;
                 height: 85%;
-                li{
+
+                li {
                     width: 2.8rem;
                     height: 1.2rem;
-                    line-height:1.2rem  ;
+                    line-height: 1.2rem;
                     text-align: center;
                     font-size: 9px;
                     margin-bottom: .3rem;
@@ -92,55 +107,64 @@
     }
 
     //公共安全
-    .public_safety{
+    .public_safety {
         height: 95%;
         padding: 2rem 2rem 0;
+
         // 顶部
-        .public_safety_top{
+        .public_safety_top {
             height: 32%;
             margin-bottom: 2%;
         }
-        .public_safety_center{
+
+        .public_safety_center {
             height: 25%;
             margin-bottom: 2%;
         }
-        .public_safety_bottom{
+
+        .public_safety_bottom {
             height: 32%;
         }
-        .title_inner{
+
+        .title_inner {
             font-family: 'LcdD';
         }
     }
 
 
     //五反专题
-    .special_topic{ 
+    .special_topic {
         margin-top: 1rem;
         box-sizing: border-box;
         height: 89%;
         padding: 1rem 1rem 0;
-        .special_topic_top{
+
+        .special_topic_top {
             height: 16%;
             margin-bottom: 2%;
         }
-        .special_topic_center{
+
+        .special_topic_center {
             height: 38%;
             margin-bottom: 2%;
-            table{
+
+            table {
                 font-size: 9px;
             }
-            .special_topic_center_DNSNumber{
-                div{
+
+            .special_topic_center_DNSNumber {
+                div {
                     font-size: 9px;
                     margin-bottom: 5%;
                     color: #fff;
-                    span{
+
+                    span {
                         display: inline-block;
                         width: 3.2rem;
                         height: 1.3rem;
                         line-height: 1.3rem;
                         margin-left: 6px;
-                        vertical-align : middle;
+                        vertical-align: middle;
                         background-color: #235566;
                         color: #f2e04b;
                         text-align: center;
@@ -150,118 +174,151 @@
                 }
             }
         }
-        .special_topic_bottom{
+
+        .special_topic_bottom {
             height: 36%;
-            .SMS_control{
-                p{
+
+            .SMS_control {
+                p {
                     margin: 0;
                     padding: 0;
                     color: #5bc6a8;
                     font-size: 9px;
-                    span{
+
+                    span {
                         font-size: 40px;
                         color: #f6e34c;
                         margin-right: 1rem;
                     }
                 }
             }
+
+            .CDN_hijacking {
+                margin-top: 8%;
+                span {
+                    display: inline-block;
+                    width: 100%;
+                    text-align: center;
+                    color: #5bc6a8;
+                    font-size: 9px;
+                }
+            }
         }
-        #bar_normal{
+
+        #bar_normal {
             width: 100%;
             height: 200px;
         }
     }
-    .tag_content{
+
+    .tag_content {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
     }
-    .tag_content embed{
+
+    .tag_content embed {
         height: 50px;
         width: 33%;
     }
 
     //信息安全
-    .information_safety{
+    .information_safety {
         height: 67%;
         padding: 2rem 1rem 0;
-        .information_safety_top{
+
+        .information_safety_top {
             height: 31%;
         }
-        .information_safety_center{
+
+        .information_safety_center {
             height: 31%;
         }
-        .information_safety_bottom{
+
+        .information_safety_bottom {
             height: 31%;
         }
-        #bar_normal_Infosf{
+
+        #bar_normal_Infosf {
             width: 100%;
             height: 200px;
         }
-        #bar_exchange_Infosf{
+
+        #bar_exchange_Infosf {
             width: 100%;
             height: 200px;
         }
     }
-    
+
 
     //网络安全工作要求
-    .network_security_requirements{
+    .network_security_requirements {
         height: 30%;
         padding: 1rem;
-        .network_security_requirements_body{
+
+        .network_security_requirements_body {
             height: 100%;
         }
     }
 
     //安全管控
-    .safety_control{
+    .safety_control {
         height: 67%;
         padding: 2rem 1rem 0;
-        .safety_control_top{
+
+        .safety_control_top {
             height: 64%;
-            .C_dial_meter{
-                ul{
-                    li{
+
+            .C_dial_meter {
+                ul {
+                    li {
                         text-align: center;
-                        h3{
+
+                        h3 {
                             margin: 0;
                             font-size: 22px;
                             color: #f6e34c;
                         }
-                        p{
+
+                        p {
                             margin: 0;
                             font-size: 8px;
-                            color: rgb(79,177,154);
+                            color: rgb(79, 177, 154);
                         }
                     }
-                    .vertical_line{
+
+                    .vertical_line {
                         float: left;
                         width: 1px;
                         height: 1rem;
-                        background-color: rgb(71,105,119);
+                        background-color: rgb(71, 105, 119);
                         margin-top: 0.3rem;
 
                     }
                 }
             }
         }
-       
-        .safety_control_bottom{
+
+        .safety_control_bottom {
             height: 31%;
-            .configuration_compliance,.system_FLAW{
+
+            .configuration_compliance,
+            .system_FLAW {
                 font-size: 13px;
                 margin-left: -1rem;
-                p{
+
+                p {
                     margin: 0;
                     padding: 0;
-                    small{
+
+                    small {
                         color: #fff;
                         text-align: right;
                         display: inline-block;
-                        width : 4rem
+                        width: 4rem
                     }
+
                     span {
                         display: inline-block;
                         width: 2.8rem;
@@ -276,19 +333,21 @@
             }
         }
     }
-    #bar_exchange_sfcontrol{
+
+    #bar_exchange_sfcontrol {
         width: 100%;
         height: 200px;
     }
 
 
     //网咯舆情展示
-    .network_public_opinion_display{
+    .network_public_opinion_display {
         height: 30%;
         padding: 1rem;
-        .network_public_opinion_display_body{
+
+        .network_public_opinion_display_body {
             height: 100%;
         }
     }
-   
+
 }

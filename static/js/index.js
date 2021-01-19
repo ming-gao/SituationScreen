@@ -778,11 +778,10 @@ var pieCDNProcessingNumber = 10;    //处理数
 var pieCDNHijackingLeft = echarts.init(document.getElementById("pie_CDN_hijacking_left"));
 pieCDNHijackingLeftOption = {
     color : ["#1abd95", "#28414f"],
-   
     title : {
         text : pieCDNNumberOfProblems + "/" + pieCDNProcessingNumber,
         left : "center",
-        top : "35%",
+        top : "center",
         textStyle : {
             color : "#f6e34c",
             fontFamily : "LcdD"
@@ -793,7 +792,6 @@ pieCDNHijackingLeftOption = {
             name: '',
             type: 'pie',
             radius: ["70%","50%"],
-            top : "-15%",
             labelLine: {
                 show: false
             },
@@ -815,7 +813,7 @@ pieCDNHijackingRightOption = {
     title : {
         text : CDNHijackingNumber + "%",
         left : "center",
-        top : "30%",
+        top : "center",
         textStyle : {
             color : "#f6e34c",
             fontFamily : "LcdD"
@@ -826,7 +824,6 @@ pieCDNHijackingRightOption = {
             name: '',
             type: 'pie',
             radius: ["70%","50%"],
-            top : "-30%",
             labelLine: {
                 show: false
             },

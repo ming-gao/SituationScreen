@@ -151,6 +151,16 @@
   color: #f6e34c;
   margin-right: 1rem;
 }
+.situation_page .special_topic .special_topic_bottom .CDN_hijacking {
+  margin-top: 8%;
+}
+.situation_page .special_topic .special_topic_bottom .CDN_hijacking span {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #5bc6a8;
+  font-size: 9px;
+}
 .situation_page .special_topic #bar_normal {
   width: 100%;
   height: 200px;
