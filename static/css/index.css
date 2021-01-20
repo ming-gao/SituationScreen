@@ -163,6 +163,63 @@
   font-size: 10px;
   color: #fff;
 }
+.situation_page .website_monitoring .border-four .isalive {
+  width: 100%;
+  height: 33%;
+  background: url("../images/方框.png") no-repeat;
+  background-size: 199px;
+  position: relative;
+}
+.situation_page .website_monitoring .border-four .isalive .statu {
+  text-align: center;
+  line-height: 24px;
+  color: #4DBCF8;
+  font-size: 12px;
+  background-image: linear-gradient(90deg, #256779, #1A5070 50%, #256779);
+  width: 100px;
+  height: 22px;
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+.situation_page .website_monitoring .border-four .row {
+  width: 100%;
+  height: 30%;
+  margin: 0;
+  position: relative;
+}
+.situation_page .website_monitoring .border-four .row .attack_left {
+  padding: 0;
+  background: url("../images/圆盘.png") no-repeat;
+  background-size: 100px;
+  font-size: 42px;
+  color: #F6E34C;
+}
+.situation_page .website_monitoring .border-four .row .attack_left p {
+  position: absolute;
+  top: 35px;
+  left: 38px;
+}
+.situation_page .website_monitoring .border-four .row .attack_right {
+  padding: 0;
+  background-size: 100px;
+}
+.situation_page .website_monitoring .border-four .row .bug_left {
+  padding: 0;
+  background: url("../images/圆盘.png") no-repeat;
+  background-size: 100px;
+  font-size: 42px;
+  color: #F6E34C;
+}
+.situation_page .website_monitoring .border-four .row .bug_left p {
+  position: absolute;
+  top: 35px;
+  left: 38px;
+}
+.situation_page .website_monitoring .border-four .row .bug_right {
+  padding: 0;
+  background-size: 100px;
+}
 .situation_page .public_safety {
   height: 95%;
   padding: 2rem 2rem 0;
@@ -273,6 +330,18 @@
 .situation_page .network_security_requirements .network_security_requirements_body {
   height: 100%;
 }
+.situation_page .network_security_requirements .network_security_requirements_body .col {
+  padding-top: 10px;
+}
+.situation_page .network_security_requirements .network_security_requirements_body .col span {
+  color: #68E1B6;
+}
+.situation_page .network_security_requirements .network_security_requirements_body .col p {
+  color: #fff;
+  font-size: 10px;
+  height: 37px;
+  overflow: hidden;
+}
 .situation_page .safety_control {
   height: 67%;
   padding: 2rem 1rem 0;
@@ -293,4 +362,16 @@
 }
 .situation_page .network_public_opinion_display .network_public_opinion_display_body {
   height: 100%;
+}
+.situation_page .network_public_opinion_display .network_public_opinion_display_body .col {
+  padding-top: 10px;
+}
+.situation_page .network_public_opinion_display .network_public_opinion_display_body .col span {
+  color: #E69A72;
+}
+.situation_page .network_public_opinion_display .network_public_opinion_display_body .col p {
+  color: #fff;
+  font-size: 10px;
+  height: 37px;
+  overflow: hidden;
 }
