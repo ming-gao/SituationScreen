@@ -1,36 +1,3 @@
-.situation_page {
-  background: url(../images/background.png) no-repeat;
-  box-sizing: border-box;
-  width: 3840px;
-  height: 1024px;
-}
-.situation_page .mytable {
-  width: 100%;
-  font-size: 13px;
-  position: relative;
-}
-.situation_page .mytable tr {
-  display: inline-block;
-  width: 100%;
-}
-.situation_page .mytable td {
-  display: inline-block;
-  border: none;
-  padding: 0.4rem 1rem 0.4rem 0.4rem;
-}
-.situation_page .mytable tbody {
-  position: absolute;
-}
-.situation_page .mytable tbody tr:nth-child(even) {
-  background: #1c4a66;
-}
-.situation_page .mytable thead {
-  position: absolute;
-  width: 100%;
-}
-.situation_page .mytable thead tr {
-  background: #1c4a66;
-}
 .situation_page .network_security {
   padding: 2rem 0.5rem 0;
   height: 95%;
