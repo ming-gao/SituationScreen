@@ -50,6 +50,65 @@
   width: 100%;
   height: 100%;
 }
+.situation_page .alert-sec-circle {
+  stroke-dashoffset: -440;
+  stroke-dasharray: 735;
+  transition: stroke-dashoffset 1s linear;
+}
+.situation_page .attack_Chart {
+  width: 500px;
+  background-color: #254A60;
+  height: 100px;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+.situation_page .attack_pie {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 5px;
+}
+.situation_page .attack_pie span {
+  color: #fff;
+  font-size: 10px;
+}
+.situation_page .attack_pie div {
+  height: 50px;
+  width: 50px;
+  background: url("../images/attack.svg") no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'LcdD';
+}
+.situation_page .attack_pie div:nth-child(7) {
+  background: url("../images/attack-green.svg") no-repeat;
+  transform: rotate(30deg);
+}
+.situation_page .attack_pie div:nth-child(7) span {
+  transform: rotate(-30deg);
+}
+.situation_page .attack_pie div:nth-child(3) {
+  background: url("../images/attack-green.svg") no-repeat;
+}
+.situation_page .attack_pie img {
+  height: 20px;
+  width: 8px;
+}
+.situation_page .attack_word {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 10px;
+}
+.situation_page .attack_word span {
+  text-align: center;
+  width: 100%;
+}
 .situation_page .website_monitoring {
   padding: 2rem 1rem 0;
   height: 95%;
@@ -60,6 +119,49 @@
 }
 .situation_page .website_monitoring .website_monitoring_bottom {
   height: 41%;
+}
+.situation_page .website_monitoring .tag_content {
+  margin-top: 20px;
+}
+.situation_page .website_monitoring .tag_content .row {
+  height: 60px;
+  margin-left: 10px;
+}
+.situation_page .website_monitoring .tag_content .row .net {
+  background: url("../images/numberTag-blue.svg") no-repeat;
+}
+.situation_page .website_monitoring .tag_content .row .market {
+  background: url("../images/numberTag-green.svg") no-repeat;
+}
+.situation_page .website_monitoring .tag_content .row .business {
+  background: url("../images/numberTag-blue.svg") no-repeat;
+}
+.situation_page .website_monitoring .tag_content .row .governmentEnterprise {
+  background: url("../images/numberTag-blue.svg") no-repeat;
+}
+.situation_page .website_monitoring .tag_content .row .informationSafe {
+  background: url("../images/numberTag-orange.svg") no-repeat;
+}
+.situation_page .website_monitoring .tag_content .row .other {
+  background: url("../images/numberTag-green.svg") no-repeat;
+}
+.situation_page .website_monitoring .tag_content .col-md-6 {
+  padding: 0;
+}
+.situation_page .website_monitoring .tag_content .col-md-6 span {
+  display: block;
+  text-align: center;
+  width: 85px;
+  height: 28px;
+}
+.situation_page .website_monitoring .tag_content .col-md-6 span:nth-child(1) {
+  font-size: 20px;
+  font-family: 'LcdD';
+  color: #fff;
+}
+.situation_page .website_monitoring .tag_content .col-md-6 span:nth-child(2) {
+  font-size: 10px;
+  color: #fff;
 }
 .situation_page .public_safety {
   height: 95%;
@@ -100,15 +202,48 @@
   width: 100%;
   height: 200px;
 }
-.situation_page .tag_content {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.situation_page .special_topic .tag_content {
+  width: 260px;
 }
-.situation_page .tag_content iframe {
+.situation_page .special_topic .tag_content .row {
   height: 50px;
-  width: 33%;
+  width: 260px;
+  margin: 0;
+}
+.situation_page .special_topic .tag_content .row .tamper {
+  background: url("../images/numberTag-blue.svg") no-repeat;
+}
+.situation_page .special_topic .tag_content .row .attack {
+  background: url("../images/numberTag-green.svg") no-repeat;
+}
+.situation_page .special_topic .tag_content .row .dns {
+  background: url("../images/numberTag-blue.svg") no-repeat;
+}
+.situation_page .special_topic .tag_content .row .cdn {
+  background: url("../images/numberTag-blue.svg") no-repeat;
+}
+.situation_page .special_topic .tag_content .row .message {
+  background: url("../images/numberTag-orange.svg") no-repeat;
+}
+.situation_page .special_topic .tag_content .row .timeout {
+  background: url("../images/numberTag-green.svg") no-repeat;
+}
+.situation_page .special_topic .tag_content .col-md-4 {
+  padding: 0;
+}
+.situation_page .special_topic .tag_content .col-md-4 span {
+  display: block;
+  text-align: center;
+  height: 28px;
+}
+.situation_page .special_topic .tag_content .col-md-4 span:nth-child(1) {
+  font-size: 20px;
+  font-family: 'LcdD';
+  color: #fff;
+}
+.situation_page .special_topic .tag_content .col-md-4 span:nth-child(2) {
+  font-size: 10px;
+  color: #fff;
 }
 .situation_page .information_safety {
   height: 67%;

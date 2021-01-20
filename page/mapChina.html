@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../static/assets/jquery-3.5.1.js"></script>
+    <script src="../static/assets/echarts/echarts.js"></script>
+    <script src="../static/assets/echarts/china.js"></script>
+    <style>
+        #content {
+            width: 100%;
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content"></div>
+    <script>
+        let myCharts = echarts.init(document.getElementById('content'))
+        option = {
+            geo: {
+                map: 'china',
+                zoom: 1.2,
+                label: {
+                    show: true,
+                    color: '#11B441'
+                },
+                emphasis: {
+                    // areaColor: '#fff',
+                    borderWidth: 0.8,
+                    label: {
+                        color: '#BBFAFF'
+                    },
+                    itemStyle: {
+                        shadowColor: '#000',
+                        shadowBlur: 10,
+                        borderColor: '#11AE4B',     //省份边框的颜色
+                        areaColor: '#1C9FDC',       //悬浮区域颜色
+                    }
+
+                },
+                itemStyle: {
+                    borderColor: '#11AE4B',
+                    areaColor: '#173D53',
+                },
+                series: [{
+                    name: '中国地图',
+                    roam: false,
+                    type: 'map',
+                    coordinateSystem: 'geo'
+                }]
+            }
+        }
+        myCharts.setOption(option)
+    </script>
+</body>
+
+</html>

@@ -53,7 +53,72 @@
         width: 100%;
         height: 100%;
     }
+    .alert-sec-circle {
+		stroke-dashoffset: -440;
+		stroke-dasharray: 735;
+		transition: stroke-dashoffset 1s linear;
+    }
+    // 攻击状态框体
+    .attack_Chart{
+        width: 500px;
+        background-color: #254A60;    
+        height: 100px;
+        padding: 15px 0;
+        margin-top: 30px;
+    }
+    // 饼图
+    .attack_pie{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+    }
     
+    .attack_pie span{
+        // display: flex;
+        // justify-content: center;
+        color: #fff;
+        font-size: 10px;
+    }
+    .attack_pie div{
+        height: 50px;
+        width: 50px;
+        background: url("../images/attack.svg") no-repeat;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-family: 'LcdD';
+    }
+    // 控制旋转
+    .attack_pie div:nth-child(7){
+        background: url("../images/attack-green.svg") no-repeat;
+        transform: rotate(30deg);
+    }
+    .attack_pie div:nth-child(7) span{
+        transform: rotate(-30deg);
+    }
+    .attack_pie div:nth-child(3){
+        background: url("../images/attack-green.svg") no-repeat;
+    }
+    .attack_pie img{
+        height: 20px;
+        width: 8px;
+    }
+    // 下方文字
+    .attack_word{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        color: #fff;
+        font-size: 10px;
+    }
+    .attack_word span{
+        text-align: center;
+        width: 100%;
+    }
     
     // 重保网站监控
     .website_monitoring{
@@ -66,6 +131,52 @@
         .website_monitoring_bottom{
             height: 41%;
         }
+        .tag_content{
+            margin-top: 20px;
+            .row{
+                height: 60px;
+                // width: 260px;
+                margin-left: 10px;
+                .net{
+                    background: url("../images/numberTag-blue.svg") no-repeat;
+                }
+                .market{
+                    background: url("../images/numberTag-green.svg") no-repeat;
+                }
+                .business{
+                    background: url("../images/numberTag-blue.svg") no-repeat;
+                }
+                .governmentEnterprise{
+                    background: url("../images/numberTag-blue.svg") no-repeat;
+                }
+                .informationSafe{
+                    background: url("../images/numberTag-orange.svg") no-repeat;
+                }
+                .other{
+                    background: url("../images/numberTag-green.svg") no-repeat;
+                }
+            }
+            .col-md-6{
+                padding: 0;
+                
+            }
+            .col-md-6 span{
+                display: block;
+                text-align: center;
+                width: 85px;
+                height: 28px;
+            }
+            .col-md-6 span:nth-child(1){
+                font-size: 20px;
+                font-family: 'LcdD';
+                color: #fff;
+            }
+            .col-md-6 span:nth-child(2){
+                font-size: 10px;
+                color: #fff;
+            }
+        }
+        
     }
 
     //公共安全
@@ -111,17 +222,54 @@
             width: 100%;
             height: 200px;
         }
+        .tag_content{
+            width: 260px;
+            .row{
+                height: 50px;
+                width: 260px;
+                margin: 0;
+                .tamper{
+                    background: url("../images/numberTag-blue.svg") no-repeat;
+                }
+                .attack{
+                    background: url("../images/numberTag-green.svg") no-repeat;
+                }
+                .dns{
+                    background: url("../images/numberTag-blue.svg") no-repeat;
+                }
+                .cdn{
+                    background: url("../images/numberTag-blue.svg") no-repeat;
+                }
+                .message{
+                    background: url("../images/numberTag-orange.svg") no-repeat;
+                }
+                .timeout{
+                    background: url("../images/numberTag-green.svg") no-repeat;
+                }
+            }
+            .col-md-4{
+                padding: 0;
+                
+            }
+            .col-md-4 span{
+                display: block;
+                text-align: center;
+                height: 28px;
+            }
+            .col-md-4 span:nth-child(1){
+                font-size: 20px;
+                font-family: 'LcdD';
+                color: #fff;
+            }
+            .col-md-4 span:nth-child(2){
+                font-size: 10px;
+                color: #fff;
+            }
+            
+        }
     }
-    .tag_content{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    .tag_content iframe{
-        height: 50px;
-        width: 33%;
-    }
+    
+
 
     //信息安全
     .information_safety{

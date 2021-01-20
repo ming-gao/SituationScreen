@@ -16,24 +16,38 @@
         <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
+    <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="攻击状态">
+    <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="修改数表盘，修改地图">
+      <change afterPath="$PROJECT_DIR$/data/hebei.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/heibeiMap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/mapChina.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index_ctl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/index_ctl.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/bg_left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/border-box.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/border-wrap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/numberTag-blue.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/numberTag-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/numberTag-orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/参考图.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/ctl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_18_取消提交了变更_[默认的]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_28_取消提交了变更_[默认的]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_35_取消提交了变更_[默认的]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/13.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/13.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/gao_attack.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/gao_attack.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/svgEE.svg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/svgEE.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/myecharts.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/myecharts.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -124,10 +138,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="数表盘调整，tag文件更新" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog" timestamp="1609727682076">
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog" timestamp="1611125058593">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1609727682076" />
+    <state x="93" y="93" width="1095" height="495" maximized="true" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1611125058593" />
     <state x="421" y="81" key="FileChooserDialogImpl" timestamp="1609236493621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -144,6 +158,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609729073810" />
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611125058593">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1611125058593" />
     <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609731320514">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

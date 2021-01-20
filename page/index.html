@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../static/assets/bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../static/css/global.css">
     <link rel="stylesheet" href="../static/css/index.css">
-    <link rel="stylesheet" href="../static/css/gao_attack.css">
+    <link rel="stylesheet" href="../static/css/index_ctl.css">
+    <!-- <link rel="stylesheet" href="../static/css/gao_attack.css"> -->
     <script src="../static/assets/jquery-3.5.1.js"></script>
     <script src="../static/assets/echarts/echarts.js"></script>
+
     <!-- <script src="../static/assets/echarts/china.js"></script> -->
 
     <title>Document</title>
@@ -160,39 +162,73 @@
                         </div>
 
                         <!-- 地图 -->
-                        <div class="col-7 mr-2" style="flex:0 0 56%;" >
-                            <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
+                        <div class="col-7 mr-2" style="flex:0 0 56%;">
+                            <iframe src="heibeiMap.html" frameborder="0" width="100%" height="100%"></iframe>
                         </div>
                         <div class="col">
 
                             <!-- 数表盘 -->
                             <div class="row border-four h-49" style="margin-bottom: 4%;">
-                               <div class="col">
+                                <div class="col">
                                     <div class="title_line">
                                         自有网站
                                     </div>
-                                    <iframe id="myiframe" src="../tag.html" frameborder="0" style="height: 80%;width: 100%;margin-top: 30px;"></iframe>
-                               </div>
+                                    <div class="tag_content">
+                                        <div class="row">
+                                            <div class="col-md-6 net">
+                                                <span>34</span>
+                                                <span>网站篡改次数</span>
+                                            </div>
+                                            <div class="col-md-6 market">
+                                                <span>11</span>
+                                                <span>流量攻击次数</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 business">
+                                                <span>122</span>
+                                                <span>CDN劫持次数</span>
+                                            </div>
+                                            <div class="col-md-6 governmentEnterprise">
+                                                <span>44</span>
+                                                <span>短信控制数</span>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6 informationSafe">
+                                                <span>122</span>
+                                                <span>CDN劫持次数</span>
+                                            </div>
+                                            <div class="col-md-6 other">
+                                                <span>44</span>
+                                                <span>短信控制数</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <!-- Web站点运行监测情况 -->
                             <div class="row border-four h-49">
-                               <div class="col">
+                                <div class="col">
                                     <div class="title_line">
                                         Web站点运行监测情况
                                     </div>
-                                    <div id="pie_station_operation_monitoring" style="width: 100%; height: 100%;" ></div>
-                               </div>
+                                    <div id="pie_station_operation_monitoring" style="width: 100%; height: 100%;"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="d-flex justify-content-around website_monitoring_bottom ">
 
                         <!-- 重点网站监测 -->
-                        <div class="col-7 border-four mr-2" style="flex:0 0 56%;"  >
+                        <div class="col-7 border-four mr-2" style="flex:0 0 56%;">
                             <div class="title_line">
                                 重点网站监测
                             </div>
+                            <ul id="keyWebsiteMonitoring">
+
+                            </ul>
                         </div>
 
                         <!-- 右下区域 -->
@@ -211,11 +247,11 @@
 
                     <!-- 顶部地图 -->
                     <div class="row public_safety_top justify-content-center border-four">
-                       <div class="col">
+                        <div class="col">
                             <div class="title_line">
                                 全区/重点区域监控
                             </div>
-                       </div>
+                        </div>
                     </div>
 
                     <!-- 中间表格 -->
@@ -251,12 +287,34 @@
                                 五反流量攻击告警
                             </div>
                             <div class="tag_content">
-                                <iframe id="myiframeGreen" src="../static/images/svgEE-green.svg" frameborder="0"></iframe>
-                                <iframe id="myiframe1" src="../static/images/svgEE.svg" frameborder="0"></iframe>
-                                <iframe id="myiframeOrange" src="../static/images/svgEE-orange.svg" frameborder="0"></iframe>
-                                <iframe id="myiframe2" src="../static/images/svgEE.svg" frameborder="0"></iframe>
-                                <iframe id="myiframe3" src="../static/images/svgEE.svg" frameborder="0"></iframe>
-                                <iframe id="myiframe4" src="../static/images/svgEE.svg" frameborder="0"></iframe>
+                                <div class="row">
+                                    <div class="col-md-4 tamper">
+                                        <span>34</span>
+                                        <span>网站篡改次数</span>
+                                    </div>
+                                    <div class="col-md-4 attack">
+                                        <span>11</span>
+                                        <span>流量攻击次数</span>
+                                    </div>
+                                    <div class="col-md-4 dns">
+                                        <span>23</span>
+                                        <span>DNS劫持次数</span>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4 cdn">
+                                        <span>122</span>
+                                        <span>CDN劫持次数</span>
+                                    </div>
+                                    <div class="col-md-4 message">
+                                        <span>44</span>
+                                        <span>短信控制数</span>
+                                    </div>
+                                    <div class="col-md-4 timeout">
+                                        <span>324</span>
+                                        <span>处置超时数</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -271,7 +329,8 @@
                             <div class="title_line">
                                 流量攻击
                             </div>
-                            <div id="bar_exchange"></div>
+                            <div id="line_traffic_attack" style="width: 100%; height: 50%;"></div>
+                            <div id="bar_exchange" style="width:100%; height: 50%;"></div>
                         </div>
 
                         <!-- DNS劫持 -->
@@ -279,24 +338,135 @@
                             <div class="title_line">
                                 DNS劫持
                             </div>
+                            <div class="d-flex justify-content-start align-items-center"
+                                style="height: 40%;width: 100%;">
+                                <div id="pie_DNS_hijacking" style="height: 100%;width: 40%;"></div>
+                                <div class="special_topic_center_DNSNumber">
+                                    <div>
+                                        监控DNS服务器个数<span>2</span>
+                                    </div>
+                                    <div>
+                                        正常DNS服务器个数<span>2</span>
+                                    </div>
+                                    <div>
+                                        异常DNS服务器个数<span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="overflow-hidden" style="width: 100%;height: 50%;">
+                                <table class="text-white table text-center mytable">
+                                    <thead style="z-index: 2;">
+                                        <tr>
+                                            <td>DNS服务器</td>
+                                            <td>域名</td>
+                                            <td>篡改IP</td>
+                                        </tr>
+                                    </thead>
+                                    <tbody style="top: 32.3px;z-index: 0;">
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.6</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.1</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.2</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.3</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.4</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2020-12-30 17:20:22</td>
+                                            <td>www.hahhah.com</td>
+                                            <td>192.168.10.6</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                     <div class="d-flex special_topic_bottom">
                         <div class="col mr-2">
-
                             <!-- CDN劫持 -->
                             <div class="row border-four h-59" style="margin-bottom: 4%;">
-                                <div class="title_line">
-                                    CDN劫持
+                                <div class="col">
+                                    <div class="title_line">
+                                        CDN劫持
+                                    </div>
+                                    <div class="d-flex w-100 h-100 CDN_hijacking">
+                                        <div class="w-50 h-100">
+                                            <div id="pie_CDN_hijacking_left" class="w-100 h-50"></div>
+                                            <span>存在问题/处理数</span>
+                                        </div>
+                                        <div class="w-50 h-100">
+                                            <div id="pie_CDN_hijacking_right" class="w-100 h-50"></div>
+                                            <span>处理数</span>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div id="CDN_pie" style="width: 280px; height: 150px;"></div>
                             </div>
 
                             <!-- 短彩信控制 -->
                             <div class="row border-four h-38">
-                                <div class="title_line">
-                                    短彩信控制
-                                </div>
+                               <div class="col">
+                                    <div class="title_line">
+                                        短彩信控制
+                                    </div>
+                                    <div class="SMS_control mt-1 d-flex justify-content-around">
+                                        <div>
+                                            <p><span>2</span><small>个</small></p>
+                                            <p>客户投诉数</p>
+                                        </div>
+                                        <div style="margin-top: .5rem; width: 1px;height: 4rem;background-color: #5bc6a8;"></div>
+                                        <div>
+                                            <p><span>0</span><small>个</small></p>
+                                            <p>处理数</p>
+                                        </div>
+                                    </div>
+                               </div>
                             </div>
                         </div>
 
@@ -305,7 +475,7 @@
                             <div class="title_line">
                                 网页篡改
                             </div>
-                            <div id="pie_webpage_tampering"></div>
+                            <div id="pie_webpage_tampering" class="h-40 w-100"></div>
                             <div id="bar_normal"></div>
                         </div>
                     </div>
@@ -372,7 +542,7 @@
                                 <div class="title_line">
                                     实时报警通报
                                 </div>
-                                <div class="overflow-hidden" style="width: 100%;height: 80%;">
+                                <div class="overflow-hidden" style="width: 100%;height: 70%;margin-top: 4%;">
                                     <table class="text-white table text-center mytable">
                                         <thead style="z-index: 2;">
                                             <tr>
@@ -481,12 +651,12 @@
                             </div>
                             <!-- 地图 -->
                             <div class="col mr-2 " style="padding: 0;">
-                                <iframe src="../heibeiMap.html" frameborder="0" width="100%" height="400px"></iframe>
+                                <iframe src="heibeiMap.html" frameborder="0" width="100%" height="400px"></iframe>
                             </div>
 
                             <div class="col mr-2" style="padding: 0;">
                                 <!-- 安全工单处理情况 -->
-                                <div class="h-48 border-four mb-3">
+                                <div class="col h-48 border-four mb-3">
                                     <div class="title_line">
                                         安全工单处理情况<small>（近一天）</small>
                                     </div>
@@ -494,21 +664,110 @@
                                 </div>
 
                                 <!-- 主账号操作审计 -->
-                                <div class="h-48 border-four">
+                                <div class="col h-48 border-four">
                                     <div class="title_line">
                                         主账号操作审计<small>（近一天）</small>
+                                    </div>
+                                    <div class="C_dial_meter mt-4">
+                                        <ul class="d-flex justify-content-around">
+                                            <li>
+                                                <h3>1122</h3>
+                                                <p>登录账号数</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>26788</h3>
+                                                <p>无登录账号数</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>439</h3>
+                                                <p>长期未使用主账号</p>
+                                                <p>（近三个月）</p>
+                                            </li>
+                                        </ul>
+                                        <ul class="d-flex justify-content-around">
+                                            <li>
+                                                <h3>20011</h3>
+                                                <p>协作账号数</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+
+                                            <li>
+                                                <h3>4</h3>
+                                                <p>尴权主账号</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>4</h3>
+                                                <p>绕行主账号</p>
+                                            </li>
+                                            <div class="vertical_line"></div>
+                                            <li>
+                                                <h3>89</h3>
+                                                <p>高位操作主账号</p>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
                             </div>
                             <div class="col " style="padding: 0;">
                                 <!-- 弱口令分析 -->
                                 <div class="h-48 border-four mb-3">
-
+                                    <div class="row p-2">
+                                        <div class="col">
+                                            <div class="title_point">弱口令分析</div>
+                                            <div class="C_dial_meter">
+                                                <ul class="d-flex justify-content-around">
+                                                    <li>
+                                                        <h3>542</h3>
+                                                        <p>弱口令数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>290</h3>
+                                                        <p>涉及设备数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>0</h3>
+                                                        <p>root弱口令数</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row p-2">
+                                        <div class="col">
+                                            <div class="title_point">防火墙策略</div>
+                                            <div class="C_dial_meter">
+                                                <ul class="d-flex justify-content-around">
+                                                    <li>
+                                                        <h3>8721</h3>
+                                                        <p>不合规策略数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>156</h3>
+                                                        <p>不合规设备数</p>
+                                                    </li>
+                                                    <div class="vertical_line"></div>
+                                                    <li>
+                                                        <h3>117</h3>
+                                                        <p>Any To Any</p>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <!-- 全省合规率 -->
                                 <div class="h-48 border-four">
-
+                                    <div class="col w-100 h-100">
+                                        <div class="title_point">全省合规率</div>
+                                        <div id="line_provincial_compliance_rate" class="w-100 h-100"></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -518,9 +777,7 @@
                                 <div class="title_line">
                                     主账号设备授权限管控<small>(近三个月)</small>
                                 </div>
-                                <div id="pie_equipment_authorization_control" style="width: 100%;height: 100%;">
-
-                                </div>
+                                <div id="pie_equipment_authorization_control" style="width: 100%;height: 100%;"></div>
                             </div>
 
                             <!-- 异常操作组合 -->
@@ -528,10 +785,33 @@
                                 <div class="title_line">
                                     异常操作组合<small>（近一天）</small>
                                 </div>
+                                <div id="bar_exception_operation_combination" class="w-100 h-100"></div>
                             </div>
 
                             <!-- 配置合规 -->
-                            <div class="col border-four"></div>
+                            <div class="col border-four">
+                                <div class="w-100 h-50">
+                                    <div class="title_point">配置合规</div>
+                                    <div class="d-flex w-100 h-75">
+                                        <div id="pie_configuration_compliance" class="w-50"></div>
+                                        <div class="configuration_compliance">
+                                            <p><small>资产数</small> <span>919</span></p>
+                                            <p><small>业务系统数</small> <span>66</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="w-100 h-50">
+                                    <div class="title_point">系统漏洞</div>
+                                    <div class="d-flex w-100 h-75">
+                                        <div id="pie_system_FLAW" class="w-50"></div>
+                                        <div class="system_FLAW">
+                                            <p><small>高危漏洞</small> <span>110</span></p>
+                                            <p><small>中危漏洞</small> <span>808</span></p>
+                                            <p><small>低危漏洞</small> <span>66</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -553,58 +833,13 @@
             </div>
         </div>
     </div>
-    <script>
-        var myiframe1 = document.getElementById('myiframe1'); //获取id为myiframe的iframe对象
-        if (myiframe1.attachEvent) {
-            myiframe1.attachEvent('onload', function () {
-                alert('iframe is loaded')
-            })
-        } else {
-            myiframe1.onload = function () {
-                //这里获取svgDom
-                var iframeSvg = document.getElementById('myiframe1').contentDocument;
-                //接下来就可以对svgDom进行操作，绑定元素点击事件，改变元素的属性等等
-                
-                iframeSvg.getElementById('tag_number').textContent = '45'
-                iframeSvg.getElementById('tag_word').textContent = '处置超时数'
-            }
-        }
-        var myiframeGreen = document.getElementById('myiframeGreen');
-        myiframeGreen.onload = function () {
-            var iframeSvg = document.getElementById('myiframeGreen').contentDocument;
-            iframeSvg.getElementById('tag_number').textContent = '334'
-            iframeSvg.getElementById('tag_word').textContent = '网站篡改次数'
-        }
-        var myiframe2 = document.getElementById('myiframe2');
-        myiframe2.onload = function () {
-            var iframeSvg = document.getElementById('myiframe2').contentDocument;
-            iframeSvg.getElementById('tag_number').textContent = '11'
-            iframeSvg.getElementById('tag_word').textContent = '网站攻击次数'
-        }
-        var myiframe3 = document.getElementById('myiframe3');
-        myiframe3.onload = function () {
-            var iframeSvg = document.getElementById('myiframe3').contentDocument;
-            iframeSvg.getElementById('tag_number').textContent = '45'
-            iframeSvg.getElementById('tag_word').textContent = 'DNS劫持次数'
-        }
-        var myiframeOrange = document.getElementById('myiframeOrange');
-        myiframeOrange.onload = function () {
-            var iframeSvg = document.getElementById('myiframeOrange').contentDocument;
-            iframeSvg.getElementById('tag_number').textContent = '23'
-            iframeSvg.getElementById('tag_word').textContent = 'CDN劫持次数'
-        }
-        var myiframe4 = document.getElementById('myiframe4');
-        myiframe4.onload = function () {
-            var iframeSvg = document.getElementById('myiframe4').contentDocument;
-            iframeSvg.getElementById('tag_number').textContent = '90'
-            iframeSvg.getElementById('tag_word').textContent = '短信控制数'
-        }
-    </script>
+
     <script src="../static/js/index.js"></script>
     <!-- 柱状图，饼图 -->
     <script src="../static/js/myecharts.js"></script>
     <!-- 表格控制 -->
-   <script src="../static/js/table.js"></script>
+    <script src="../static/js/table.js"></script>
+    <script src="../static/js/ctl.js"></script>
 </body>
 
 </html>

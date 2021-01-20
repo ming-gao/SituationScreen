@@ -2,14 +2,26 @@
     src: url('../font/LCDD.TTF');
     font-family: 'LcdD';
 }
-
+body{
+    font-family: 'LcdD';
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 .border_large {
     border: 2px solid #468e72;
     position: relative;
     display: flex;
 
 }
-
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
 .title_wrapper {
     position: absolute;
     left: 0;
@@ -82,6 +94,12 @@
 .h-60{
     height: 60%;
 }
+.h-70{
+    height: 70%;
+}
+.h-80{
+    height: 80%;
+}
 .h-90 {
     height: 90%;
 }
@@ -147,6 +165,20 @@
     /*设置大小*/
     background-size: 0.15rem 0.6rem, 0.6rem 0.15rem, 0.15rem 0.6rem, 0.6rem 0.15rem;
 }
+/* 切四角 */
+.cut-four{
+    background:
+        linear-gradient(135deg, transparent 2px, deeppink 0)
+        top left,
+        linear-gradient(-135deg, transparent 2px, deeppink 0)
+        top right,
+        linear-gradient(-45deg, transparent 2px, deeppink 0)
+        bottom right,
+        linear-gradient(45deg, transparent 2px, deeppink 0)
+        bottom left;
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+}
 
 /* 下线标题 */
 .title_line{
@@ -158,7 +190,7 @@
     border-bottom: 1px solid rgb(69,141,114);;
     display: inline-block;
     padding: .2rem 0.3rem;
-    font-size: .9rem;
+    font-size: 14px;
 }
 .title_line::before{
     content: "";
@@ -179,4 +211,26 @@
     background-color: rgb(69,141,114);
     right: 0;
     bottom: -.15rem;
+}
+
+/* 带点标题 */
+.title_point{
+    margin-left: .2rem;
+    color: #fff;
+    position: relative;
+    left: .1rem;
+    display: inline-block;
+    padding: .2rem 0.3rem;
+    font-size: 11px;
+}
+.title_point::before{
+    position: relative;
+    top: .2rem;
+    content: "";
+    display: inline-block;
+    width: .4rem;
+    height: 1rem;
+    border-radius: .5rem;
+    background-color: #1abd95;
+    margin-right: 0.2rem;
 }
