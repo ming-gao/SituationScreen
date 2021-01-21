@@ -99,15 +99,22 @@
   width: 8px;
 }
 .situation_page .attack_word {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: #fff;
-  font-size: 10px;
-}
-.situation_page .attack_word span {
-  text-align: center;
   width: 100%;
+  margin-top: 5px;
+}
+.situation_page .attack_word .col-xs-1-7 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 10px;
+  padding-left: 10px;
+  width: 14.28%;
+  float: left;
+  text-align: center;
+  font-size: 10px;
+  color: #fff;
+}
+.situation_page .attack_word span:nth-child(1) {
+  padding-left: 0px;
 }
 .situation_page .website_monitoring {
   padding: 2rem 1rem 0;
@@ -122,6 +129,7 @@
 }
 .situation_page .website_monitoring .tag_content {
   margin-top: 20px;
+  margin-left: 10px;
 }
 .situation_page .website_monitoring .tag_content .row {
   height: 60px;
@@ -198,7 +206,7 @@
 .situation_page .website_monitoring .border-four .row .attack_left p {
   position: absolute;
   top: 35px;
-  left: 38px;
+  left: 40px;
 }
 .situation_page .website_monitoring .border-four .row .attack_right {
   padding: 0;
@@ -247,6 +255,12 @@
 .situation_page .special_topic .special_topic_top {
   height: 16%;
   margin-bottom: 2%;
+}
+.situation_page .special_topic .special_topic_top .oneclick {
+  width: 100%;
+  height: 100%;
+  background: url("../images/一键处理.png") no-repeat;
+  margin-top: 10px;
 }
 .situation_page .special_topic .special_topic_center {
   height: 38%;

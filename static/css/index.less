@@ -109,15 +109,28 @@
     }
     // 下方文字
     .attack_word{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        color: #fff;
-        font-size: 10px;
-    }
-    .attack_word span{
-        text-align: center;
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: space-between;
+        // color: #fff;
+        // font-size: 10px;
         width: 100%;
+        margin-top: 5px;
+        .col-xs-1-7{
+            position: relative;
+            min-height: 1px;
+            padding-right: 10px;
+            padding-left: 10px;
+            width: 14.28%;
+            float: left;
+            text-align: center;
+            font-size: 10px;
+            color: #fff;
+        }
+    }
+    .attack_word span:nth-child(1){
+        padding-left: 0px;
+        
     }
     
     // 重保网站监控
@@ -134,6 +147,7 @@
         }
         .tag_content{
             margin-top: 20px;
+            margin-left: 10px;
             .row{
                 height: 60px;
                 // width: 260px;
@@ -214,7 +228,7 @@
                 .attack_left p{
                     position: absolute;
                     top: 35px;
-                    left: 38px;
+                    left: 40px;
                 }
                 .attack_right{
                     padding: 0;
@@ -274,6 +288,13 @@
         .special_topic_top{
             height: 16%;
             margin-bottom: 2%;
+            .oneclick{
+                width: 100%;
+                height: 100%;
+                background: url("../images/一键处理.png") no-repeat;
+                margin-top: 10px;
+                
+            }
         }
         .special_topic_center{
             height: 38%;

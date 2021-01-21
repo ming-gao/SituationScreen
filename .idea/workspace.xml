@@ -19,14 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="修改数表盘，修改地图">
+    <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="抠图，图片补充，文字部分">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/参考图.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/方框.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/方框.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/边框上.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/圆盘.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/圆盘.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +73,8 @@
       <workItem from="1609765551152" duration="2134000" />
       <workItem from="1610070384808" duration="700000" />
       <workItem from="1611129638987" duration="95000" />
-      <workItem from="1611129788784" duration="980000" />
+      <workItem from="1611129788784" duration="1639000" />
+      <workItem from="1611191706911" duration="939000" />
     </task>
     <task id="LOCAL-00001" summary="数表盘调整，tag文件更新">
       <created>1609729049348</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611129840368</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="抠图，图片补充，文字部分">
+      <created>1611137705600</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611137705600</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +144,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="数表盘调整，tag文件更新" />
     <MESSAGE value="修改数表盘，修改地图" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改数表盘，修改地图" />
+    <MESSAGE value="抠图，图片补充，文字部分" />
+    <option name="LAST_COMMIT_MESSAGE" value="抠图，图片补充，文字部分" />
   </component>
   <component name="WindowStateProjectService">
     <state x="371" y="87" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611129174653">
@@ -165,10 +172,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="441" y="0" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1609236654625" />
-    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1611129848769">
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1611137712895">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611129848769" />
+    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611137712895" />
     <state x="93" y="93" width="1095" height="495" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1611125058593">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
