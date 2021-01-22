@@ -1,0 +1,87 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"BranchesTreeState\">\r\n    <expand>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"GROUP_NODE:github\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </expand>\r\n    <select>\r\n      <path>\r\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n        <item name=\"BRANCH:master\" type=\"e8cecc67:BranchNodeDescriptor\" />\r\n      </path>\r\n    </select>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e70652e0-e8b1-48c3-9045-c579e731e50e\" name=\"默认的\" comment=\"数表盘调整，tag文件更新\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_18_取消提交了变更_[默认的]/shelved.patch\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_28_取消提交了变更_[默认的]/shelved.patch\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_35_取消提交了变更_[默认的]/shelved.patch\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/page/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/page/index.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/css/index.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/static/css/index.css\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/css/index.less\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/static/css/index.less\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/static/js/index.js\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/static/js/index.js\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/tag.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/tag.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n    <option name=\"RESET_MODE\" value=\"HARD\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"1mKJeY3QTGHu9rmhQzmY1C9l6Nu\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\r\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"preferences.pluginManager\" />\r\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e70652e0-e8b1-48c3-9045-c579e731e50e\" name=\"默认的\" comment=\"\" />\r\n      <created>1609236444713</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1609236444713</updated>\r\n      <workItem from=\"1609236446341\" duration=\"410000\" />\r\n      <workItem from=\"1609315548941\" duration=\"473000\" />\r\n      <workItem from=\"1609727252563\" duration=\"425000\" />\r\n      <workItem from=\"1609750140363\" duration=\"611000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"数表盘调整，tag文件更新\">\r\n      <created>1609729049348</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1609729049348</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"2\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State>\r\n              <option name=\"FILTERS\">\r\n                <map>\r\n                  <entry key=\"branch\">\r\n                    <value>\r\n                      <list>\r\n                        <option value=\"github/master\" />\r\n                      </list>\r\n                    </value>\r\n                  </entry>\r\n                </map>\r\n              </option>\r\n            </State>\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"数表盘调整，tag文件更新\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"数表盘调整，tag文件更新\" />\r\n  </component>\r\n  <component name=\"WindowStateProjectService\">\r\n    <state x=\"93\" y=\"93\" width=\"1095\" height=\"495\" maximized=\"true\" key=\"DiffContextDialog\" timestamp=\"1609727682076\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"93\" y=\"93\" width=\"1095\" height=\"495\" maximized=\"true\" key=\"DiffContextDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1609727682076\" />\r\n    <state x=\"421\" y=\"81\" key=\"FileChooserDialogImpl\" timestamp=\"1609236493621\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"421\" y=\"81\" key=\"FileChooserDialogImpl/0.0.1280.680@0.0.1280.680\" timestamp=\"1609236493621\" />\r\n    <state x=\"524\" y=\"241\" key=\"Github.ShareDialog\" timestamp=\"1609236644833\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"524\" y=\"241\" key=\"Github.ShareDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1609236644833\" />\r\n    <state x=\"441\" y=\"0\" key=\"Github.UntrackedFilesDialog\" timestamp=\"1609236654625\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"441\" y=\"0\" key=\"Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1609236654625\" />\r\n    <state x=\"233\" y=\"69\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1609729073810\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"233\" y=\"69\" key=\"Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1609729073810\" />\r\n    <state x=\"462\" y=\"250\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1609731320514\">\r\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\r\n    </state>\r\n    <state x=\"462\" y=\"250\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1609731320514\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision bfe794eb2d47d86d6e3b69feae1783c95549837a)
++++ .idea/workspace.xml	(date 1609755032242)
+@@ -19,25 +19,18 @@
+     <select>
+       <path>
+         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+-        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
++        <item name="BRANCH:github/master" type="e8cecc67:BranchNodeDescriptor" />
+       </path>
+     </select>
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="e70652e0-e8b1-48c3-9045-c579e731e50e" name="默认的" comment="数表盘调整，tag文件更新">
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_18_取消提交了变更_[默认的]/shelved.patch" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_28_取消提交了变更_[默认的]/shelved.patch" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/shelf/在进行Update之前于_2021_1_4_11_35_取消提交了变更_[默认的]/shelved.patch" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_18____.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_28____.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Update_2021_1_4_11_35____.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/page/index.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/css/index.less" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/index.less" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/static/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/index.js" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/tag.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -45,6 +38,11 @@
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$" value="test" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+     <option name="RESET_MODE" value="HARD" />
+   </component>
+@@ -137,13 +135,25 @@
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+     <state x="441" y="0" key="Github.UntrackedFilesDialog/0.0.1280.680@0.0.1280.680" timestamp="1609236654625" />
+-    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1609729073810">
++    <state x="121" y="50" key="MergeDialog" timestamp="1609754604955">
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+-    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609729073810" />
+-    <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609731320514">
++    <state x="121" y="50" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1609754604955" />
++    <state x="269" y="93" key="MultipleFileMergeDialog" timestamp="1609754561232">
+       <screen x="0" y="0" width="1280" height="680" />
+     </state>
+-    <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1609731320514" />
++    <state x="269" y="93" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1609754561232" />
++    <state x="233" y="69" key="Vcs.Push.Dialog.v2" timestamp="1609754776042">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="233" y="69" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609754776042" />
++    <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609754022786">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="462" y="250" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1609754022786" />
++    <state x="493" y="249" key="git4idea.rebase.GitUnstructuredEditor" timestamp="1609754135204">
++      <screen x="0" y="0" width="1280" height="680" />
++    </state>
++    <state x="493" y="249" key="git4idea.rebase.GitUnstructuredEditor/0.0.1280.680@0.0.1280.680" timestamp="1609754135204" />
+   </component>
+ </project>
+\ No newline at end of file
+diff --git .idea/shelf/Update_2021_1_4_11_35____.xml .idea/shelf/Update_2021_1_4_11_35____.xml
+diff --git .idea/shelf/Update_2021_1_4_11_18____.xml .idea/shelf/Update_2021_1_4_11_18____.xml
+diff --git .idea/shelf/Update_2021_1_4_11_28____.xml .idea/shelf/Update_2021_1_4_11_28____.xml
